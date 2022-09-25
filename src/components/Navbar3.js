@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../image/logo1.svg";
-import { Nav, NavLink, NavMenu } from "./NavbarElements";
+import { Nav, NavLink, NavMenu, Bars } from "./NavbarElements";
 import { BsCart2 } from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
 export default function Navbar3() {
@@ -14,6 +14,13 @@ export default function Navbar3() {
         <h3>Marketplace</h3>
       </div>
       <Nav>
+        <div className="hamburger">
+          <Bars
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+          />
+        </div>
         <NavMenu
           className={
             isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
