@@ -1,0 +1,41 @@
+import React, { useState } from "react";
+import logo from "../image/logo1.svg";
+import { Nav, NavLink, NavMenu } from "./NavbarElements";
+import { BsCart2 } from "react-icons/bs";
+import { BsPerson } from "react-icons/bs";
+export default function Navbar3() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  return (
+    <header>
+      <div className="logo">
+        <img src={logo} alt={logo.svg} />
+      </div>
+      <div>
+        <h3>Marketplace</h3>
+      </div>
+      <Nav>
+        <NavMenu
+          className={
+            isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+          }
+        >
+          <NavLink to="/">Home</NavLink>
+
+          <NavLink to="/orders">Orders</NavLink>
+
+          <NavLink to="/">
+            <button>Login</button>
+          </NavLink>
+          <NavLink to="/orders">
+            {" "}
+            <BsCart2 />
+          </NavLink>
+          <NavLink to="/orders">
+            {" "}
+            <BsPerson />
+          </NavLink>
+        </NavMenu>
+      </Nav>
+    </header>
+  );
+}
