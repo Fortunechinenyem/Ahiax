@@ -4,6 +4,7 @@ const Hero = () => {
   return (
     <section className="mt-3">
       <div
+        className="hero"
         style={{
           backgroundImage: `url(${background})`,
           backgroundRepeat: "no-repeat",
@@ -13,7 +14,11 @@ const Hero = () => {
           height: "400px",
         }}
       >
-        <h1>AHIAX</h1>
+        <div className="py-4">
+          <h1>Sales Platform</h1>
+          <h1>with Litmitless </h1>
+          <h1> Potential</h1>
+        </div>
       </div>
     </section>
   );

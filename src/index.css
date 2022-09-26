@@ -172,15 +172,13 @@ header {
 }
 .card-body {
   background: var(--clr-alternate);
+  color: var(--clr-light);
 }
 /* home */
-.homehero {
-  gap: 10px;
-}
-.homebody {
-  justify-content: space-between;
+.hero {
   color: var(--clr-accent);
 }
+
 /* About */
 
 /* Footer */

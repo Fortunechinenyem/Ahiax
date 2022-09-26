@@ -9,13 +9,12 @@ const Footer = () => {
     <>
       <Card>
         <Card.Body>
-          <div className="logo mb-3">
-            <img src={logo} alt={Footer.png} />
-          </div>
-
           <Card.Text>
             <footer>
               <div className="footer">
+                <div className="logo mb-3">
+                  <img src={logo} alt={Footer.png} />
+                </div>
                 <ul className="social-list">
                   <li className="social-list__item">
                     <Link to="/about" className="social-list__link">
