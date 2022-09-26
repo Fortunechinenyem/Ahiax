@@ -182,13 +182,10 @@ header {
   color: var(--clr-accent);
 }
 /* About */
-.card-body1 {
-  background: var(--clr-light);
-}
 
 /* Footer */
 .footer {
-  background: var(--clr-dark);
+  background: var(--clr-alternate);
   color: var(--clr-light);
   text-align: center;
   align-content: center;
@@ -217,7 +214,7 @@ header {
 .social-list {
   list-style: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   margin: 2em 0 0;
   padding: 0;

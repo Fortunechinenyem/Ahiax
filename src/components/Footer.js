@@ -1,17 +1,56 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../image/logo1.svg";
 
 import Card from "react-bootstrap/Card";
 
 const Footer = () => {
   return (
     <>
-      <Card className="text-center">
-        <Card.Header>Featured</Card.Header>
+      <Card>
         <Card.Body>
-          <Card.Title>Special title treatment</Card.Title>
+          <div className="logo mb-3">
+            <img src={logo} alt={Footer.png} />
+          </div>
+
           <Card.Text>
-            With supporting text below as a natural lead-in to additional
-            content.
+            <footer>
+              <div className="footer">
+                <ul className="social-list">
+                  <li className="social-list__item">
+                    <Link to="/about" className="social-list__link">
+                      FAQ
+                    </Link>
+                  </li>
+                  <li className="social-list__item">
+                    <a className="social-list__link" href="http://linkedin.com">
+                      <i className="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li className="social-list__item">
+                    <a className="social-list__link" href="https://twitter.com">
+                      <i className="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="social-list__item">
+                    <a
+                      className="social-list__link"
+                      href="https://wa.link/0gjrij"
+                    >
+                      <i className="fab fa-whatsapp"></i>
+                    </a>
+                  </li>
+                  <li className="social-list__item">
+                    <a
+                      className="social-list__link"
+                      href="https://facebook.com"
+                    >
+                      <i className="fab fa-facebook"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </footer>
           </Card.Text>
         </Card.Body>
       </Card>
