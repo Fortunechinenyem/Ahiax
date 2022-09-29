@@ -11,6 +11,7 @@ const SmallMarketHero = () => {
           <Card.Text>
             Get mouth watering discounts on your favorite items.
           </Card.Text>
+          <Button variant="success">Explore</Button>
         </Card.Body>
       </Card>
     </>
