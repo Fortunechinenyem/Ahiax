@@ -2,12 +2,14 @@ import React from "react";
 import Data from "../components/Data";
 
 const HomeFeatures1 = (props) => {
-  const { id, title, text } = props;
+  const { id, img, title, desc } = props;
   return (
     <div key={id} className="card d-flex">
-      <div className="card-body">
-        <h5 className="card-title text-white">{title}</h5>
-        <p className="card-text text-white">{text}</p>
+      <div className="card-body2 text-center">
+        <img src={img} className="card-img" alt="" />
+        <h5 className="card-title text-black">{title}</h5>
+        <p className="card-text text-black">{desc}</p>
+        <button className="btn btn-success mb-2">Sign Up</button>
       </div>
     </div>
   );

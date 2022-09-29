@@ -31,7 +31,7 @@ export default function Navbar3() {
           <NavLink to="/orders">Orders</NavLink>
 
           <NavLink to="/">
-            <button>Login</button>
+            <button className="btn btn-success">Login</button>
           </NavLink>
           <NavLink to="/orders">
             {" "}

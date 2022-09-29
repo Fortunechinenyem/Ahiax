@@ -15,9 +15,9 @@
 
   --clr-light: rgb(229, 231, 239);
   --clr-dark: #020233;
-  --clr-accent: #1d8049;
+  --clr-accent: #268f7d;
   --clr-alternate: #0b2c57;
-  --clr-sisi: #5b5c66;
+  --clr-sisi: #0fa1a7;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -174,9 +174,17 @@ header {
   background: var(--clr-alternate);
   color: var(--clr-light);
 }
+.card-body1 {
+  background: var(--clr-light);
+  color: var(--clr-dark);
+}
+.card-body2 {
+  background: var(--clr-light);
+  color: var(--clr-light);
+}
 /* home */
 .hero {
-  color: var(--clr-accent);
+  color: var(--clr-light);
 }
 
 /* About */

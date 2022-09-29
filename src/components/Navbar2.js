@@ -1,14 +1,7 @@
 import React, { useState } from "react";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { BiSearch } from "react-icons/bi";
-import {
-  Nav,
-  NavLink,
-  Bars,
-  NavMenu,
-  NavBtn,
-  NavBtnLink,
-} from "./NavbarElements";
+import { Nav, NavLink, Bars, NavMenu, NavBtn } from "./NavbarElements";
 import logo from "../image/logo1.svg";
 
 const Navbar2 = () => {
@@ -46,7 +39,9 @@ const Navbar2 = () => {
 
           <NavLink to="/marketplace">Marketplace</NavLink>
           <NavBtn>
-            <NavBtnLink to="/signin">Login</NavBtnLink>
+            <NavLink to="/">
+              <button className="btn btn-success">Login</button>
+            </NavLink>
           </NavBtn>
         </NavMenu>
       </Nav>
