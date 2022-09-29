@@ -5,11 +5,11 @@ const MarketFeatures1 = (props) => {
   const { id, img, title, desc } = props;
   return (
     <div key={id} className="card d-flex">
-      <div className="card-body">
+      <div className="card-body1 text-center">
         <img src={img} className="card-img" alt="" />
-        <h5 className="card-title text-white">{title}</h5>
-        <p className="card-text text-white">{desc}</p>
-        <button className="btn btn-primary">Sign Up</button>
+        <h5 className="card-title text-black">{title}</h5>
+        <p className="card-text text-black">{desc}</p>
+        <button className="btn btn-success">Shop</button>
       </div>
     </div>
   );
