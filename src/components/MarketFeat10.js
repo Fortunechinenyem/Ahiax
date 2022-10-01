@@ -17,17 +17,16 @@ const MarketFeatures1 = (props) => {
   );
 };
 
-const MarketFeatures = () => {
+const MarketFeat10 = () => {
   return (
     <section className="mt-5">
       <div className="text-center section__title section__title--services">
-        <h1>Shop By Category</h1>
+        <h1>Weekly Deals</h1>
       </div>
-
       <div className="container card1 row g-3 w-75 mx-auto">
-        {Data.marketfeatures.map((marketfeaturesItem) => {
+        {Data.marketfeat10.map((marketfeaturesItem) => {
           return (
-            <div className="col-sm-12 col-md-4 mb-3 mt-3">
+            <div className="col-sm-6 col-md-3 mb-3 mt-3">
               <MarketFeatures1 {...marketfeaturesItem}></MarketFeatures1>
             </div>
           );
@@ -37,4 +36,4 @@ const MarketFeatures = () => {
   );
 };
 
-export default MarketFeatures;
+export default MarketFeat10;

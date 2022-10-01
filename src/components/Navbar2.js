@@ -3,6 +3,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { BiSearch } from "react-icons/bi";
 import { Nav, NavLink, Bars, NavMenu, NavBtn } from "./NavbarElements";
 import logo from "../image/logo1.svg";
+import { Link } from "react-router-dom";
 
 const Navbar2 = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -30,21 +31,40 @@ const Navbar2 = () => {
           }
         >
           <NavLink to="/">Home</NavLink>
-          <NavDropdown title="Services" id="nav-dropdown">
-            <NavDropdown.Item eventKey="4.1">Platform</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.2">Brands</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.2">Partner</NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.2">Sales & Network</NavDropdown.Item>
+          <NavDropdown
+            title="Services"
+            id="nav-dropdown"
+            className="nav__list2"
+          >
+            <NavDropdown.Item eventKey="4.1">
+              <Link to="/publishers" className="nav__link">
+                Publishers
+              </Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.2">
+              <Link to="/brands" className="nav__link">
+                Brands
+              </Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.2">
+              <Link to="/partner" className="nav__link">
+                Partner
+              </Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item eventKey="4.2">
+              <Link to="/salesnetwork" className="nav__link">
+                Sales-Network
+              </Link>
+            </NavDropdown.Item>
           </NavDropdown>
 
           <NavLink to="/marketplace">Marketplace</NavLink>
-          <NavBtn>
-            <NavLink to="/">
-              <button className="btn btn-success">Login</button>
-            </NavLink>
-          </NavBtn>
+          <NavBtn></NavBtn>
         </NavMenu>
       </Nav>
+      <button className="btn btn-success">
+        <Link to="/login">Login</Link>
+      </button>
     </header>
   );
 };

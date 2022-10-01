@@ -7,9 +7,14 @@ const SmallerMarketHero = () => {
     <>
       <Card className="text-center">
         <Card.Body className="card-body1">
-          <Card.Title>New Arrivals</Card.Title>
+          <Card.Title>
+            <h1>50% off Orders</h1>
+          </Card.Title>
           <Card.Text></Card.Text>
-          <Button variant="success">Explore</Button>
+          <Button variant="success" className="m-2">
+            Go to Sale
+          </Button>
+          <Button variant="success">Shop Collection</Button>
         </Card.Body>
       </Card>
     </>

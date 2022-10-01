@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import Navbar2 from "../components/Navbar2";
 
-const SalesNetwork = () => {
+const Affiliate = () => {
   return (
     <>
       <Navbar2 />
@@ -10,4 +10,4 @@ const SalesNetwork = () => {
     </>
   );
 };
-export default SalesNetwork;
+export default Affiliate;
