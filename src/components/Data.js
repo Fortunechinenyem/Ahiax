@@ -32,12 +32,7 @@ import image31 from "../image/image12.jpg";
 import image32 from "../image/image12.jpg";
 import image33 from "../image/image12.jpg";
 import image34 from "../image/image12.jpg";
-import image35 from "../image/pic1.PNG";
-import image36 from "../image/pic1.PNG";
-import image37 from "../image/pic3.PNG";
-import image38 from "../image/pic1.PNG";
-import image39 from "../image/pic1.PNG";
-import image40 from "../image/pic1.PNG";
+
 const Data = {
   homefeatures: [
     {
