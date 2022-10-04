@@ -202,8 +202,8 @@ header {
   color: var(--clr-dark);
 }
 .card-body2 {
-  background: var(--clr-light);
-  color: var(--clr-light);
+  background: var(--clr-accent);
+  color: var(--clr-dark);
 }
 /* home */
 .hero {
