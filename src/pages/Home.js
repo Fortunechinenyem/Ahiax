@@ -5,7 +5,6 @@ import Hero from "../components/Hero";
 
 import HomeFeatures from "../components/HomeFeatures";
 
-import Navbar2 from "../components/Navbar2";
 import SmallerHero from "../components/SmallerHero";
 import SmallHero from "../components/SmallHero";
 
