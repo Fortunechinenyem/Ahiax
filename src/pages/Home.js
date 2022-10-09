@@ -12,8 +12,6 @@ import SmallHero from "../components/SmallHero";
 const Home = () => {
   return (
     <>
-      <Navbar2 />
-
       <Hero />
       <SmallHero />
       <HomeFeatures />

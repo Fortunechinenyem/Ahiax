@@ -110,68 +110,6 @@ header {
   max-width: 80px;
   color: var(--clr-light);
 }
-.nav__list {
-  list-style: none;
-  display: flex;
-  height: 50%;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-.nav__list2 {
-  list-style: none;
-  display: flex;
-  height: 20%;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-.nav__link {
-  color: var(--clr-sisi);
-  background-color: var(--clr-dark);
-  font-size: var(--fs-body);
-  text-decoration: none;
-}
-
-.nav__link:hover {
-  color: var(--clr-accent);
-}
-
-.nav-toggle {
-  padding: 0.5em;
-  background: transparent;
-  border: 0;
-  cursor: pointer;
-  position: absolute;
-  right: 1em;
-  top: 1em;
-  z-index: 1000;
-}
-
-.nav-open .nav {
-  transform: translateX(0);
-}
-
-.nav-open .nav-toggle {
-  position: fixed;
-}
-
-.nav-open .hamburger {
-  transform: rotate(0.625turn);
-}
-
-.nav-open .hamburger::before {
-  transform: rotate(90deg) translateX(-6px);
-}
-
-.nav-open .hamburger::after {
-  opacity: 0;
-}
 
 .header {
   justify-content: space-between;
@@ -179,6 +117,62 @@ header {
 .nav2 {
   justify-content: flex-end;
   background-color: var(--clr-light);
+}
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #2642af;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navigation-menu ul {
+    display: none;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+  .navigation-menu ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+  .navigation-menu li {
+    text-align: center;
+    margin: 0;
+  }
+  .navigation-menu li a {
+    color: black;
+
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
 }
 .section__title--services {
   color: var(--clr-dark);
@@ -213,6 +207,16 @@ header {
 }
 /* About */
 
+/* Publishers */
+.publishfeat3 {
+  justify-content: space-between;
+}
+.benefits {
+  transform: rotateY("90");
+}
+.benefits2 {
+  justify-content: space-between;
+}
 /* Footer */
 .footer {
   background: var(--clr-alternate);

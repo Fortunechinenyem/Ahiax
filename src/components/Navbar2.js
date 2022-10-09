@@ -1,72 +1,135 @@
-import React, { useState } from "react";
+import React from "react";
+import styled from "styled-components";
+import { NavLink as Link, useNavigate } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { BiSearch } from "react-icons/bi";
-import { Nav, NavLink, Bars, NavMenu, NavBtn } from "./NavbarElements";
 import logo from "../image/logo1.svg";
-import { Link } from "react-router-dom";
-
-const Navbar2 = () => {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
+const Nav = styled("nav")`
+  padding: 1.5rem 0;
+  background-color: #268f7d;
+`;
+const LinksWrapper = styled("ul")`
+  background-color: #fff;
+  padding: 0 5rem;
+`;
+const SearchNavWrapper = styled("div")``;
+const ButtonWrapper = styled("div")` display: flex;justify-content: flex-end;
+ @media screen and (max-width: 1024px) { justify-content: flex-start; margin-top: 0.5rem;  }`;
+const SearchForm = styled("form")`
+  margin-right: 5rem;
+`;
+const SearchInput = styled("input")`
+  border-radius: 0px;
+  outline: none;
+  border: none;
+`;
+const Button = styled("button")`
+  padding: 0.3rem 1.3rem;
+  border: none;
+`;
+const LogoWrapper = styled("div")`
+  margin-right: 5rem;
+`;
+const Logo = () => {
+  const navigate = useNavigate();
   return (
-    <header>
-      <div className="search ">
-        <BiSearch />
-        <input type="text" placeholder="Search" />
-      </div>
-      <div className="logo">
-        <img src={logo} alt={logo.svg} />
-      </div>
-      <Nav>
-        <div className="hamburger">
-          <Bars
-            onClick={() => {
-              setIsNavExpanded(!isNavExpanded);
-            }}
-          />
-        </div>
-
-        <NavMenu
-          className={
-            isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-          }
-        >
-          <NavLink to="/">Home</NavLink>
-          <NavDropdown
-            title="Services"
-            id="nav-dropdown"
-            className="nav__list2"
-          >
-            <NavDropdown.Item eventKey="4.1">
-              <Link to="/publishers" className="nav__link">
-                Publishers
-              </Link>
-            </NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.2">
-              <Link to="/brands" className="nav__link">
-                Brands
-              </Link>
-            </NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.2">
-              <Link to="/partner" className="nav__link">
-                Partner
-              </Link>
-            </NavDropdown.Item>
-            <NavDropdown.Item eventKey="4.2">
-              <Link to="/salesnetwork" className="nav__link">
-                Sales-Network
-              </Link>
-            </NavDropdown.Item>
-          </NavDropdown>
-
-          <NavLink to="/marketplace">Marketplace</NavLink>
-          <NavBtn></NavBtn>
-        </NavMenu>
-      </Nav>
-      <button className="btn btn-success">
-        <Link to="/login">Login</Link>
-      </button>
-    </header>
+    <LogoWrapper className="logo" onClick={() => navigate("/")}>
+      <img src={logo} alt={logo.svg} />
+    </LogoWrapper>
   );
 };
+const NavbarToggler = () => {
+  return (
+    <button
+      className="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span className="navbar-toggler-icon"></span>
+    </button>
+  );
+};
+const SearchBar = () => {
+  return (
+    <SearchForm className="form-inline my-2 my-lg-0">
+      <SearchInput
+        className="form-control mr-sm-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+      />
+    </SearchForm>
+  );
+};
+const NavLinks = () => {
+  return (
+    <LinksWrapper className="navbar-nav mr-auto">
+      <li className="nav-item active">
+        <Link className="nav-link" to="/">
+          Home <span className="sr-only">(current)</span>
+        </Link>
+      </li>
 
-export default Navbar2;
+      <NavDropdown title="Services" id="nav-dropdown">
+        <NavDropdown.Item eventKey="4.1">
+          <Link to="/publishers" className="nav__link">
+            Publishers
+          </Link>
+        </NavDropdown.Item>
+
+        <NavDropdown.Item eventKey="4.2">
+          <Link to="/brands" className="nav__link">
+            Brands
+          </Link>
+        </NavDropdown.Item>
+
+        <NavDropdown.Item eventKey="4.2">
+          <Link to="/partner" className="nav__link">
+            Partner
+          </Link>
+        </NavDropdown.Item>
+
+        <NavDropdown.Item eventKey="4.2">
+          <Link to="/salesnetwork" className="nav__link">
+            Sales-Network
+          </Link>
+        </NavDropdown.Item>
+      </NavDropdown>
+
+      <li className="nav-item">
+        <Link
+          className="nav-link"
+          to="/marketplace"
+          style={{ color: "#268f7d" }}
+        >
+          Marketplace
+        </Link>
+      </li>
+    </LinksWrapper>
+  );
+};
+const LoginButton = () => {
+  return <Button>Login</Button>;
+};
+const NavBar = () => {
+  return (
+    <Nav className="navbar navbar-expand-lg px-3">
+      <Logo />
+      <NavbarToggler />
+      <SearchNavWrapper
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <SearchBar />
+        <NavLinks />
+        <ButtonWrapper>
+          <LoginButton />
+        </ButtonWrapper>
+      </SearchNavWrapper>
+    </Nav>
+  );
+};
+export default NavBar;

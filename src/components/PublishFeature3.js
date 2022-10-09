@@ -3,8 +3,8 @@ import React from "react";
 const PublishFeat3 = () => {
   return (
     <>
-      <section className="mt-3 mb-3 card-body1">
-        <div className="d-flex w-75 mx-auto ">
+      <section className="mt-3 mb-3 ">
+        <div className="d-flex publishfeat3 w-75 mx-auto g-3 card-body1 ">
           <div>
             <h2>Who Could be an Affiliate?</h2>
           </div>

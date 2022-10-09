@@ -10,10 +10,12 @@ import SalesNetwork from "./pages/SalesNetwork";
 import Affiliate from "./pages/Affiliate";
 import Login from "./pages/Login";
 import Publishers from "./pages/Publishers";
+import NavBar from "./components/Navbar2";
 
 function App() {
   return (
     <article>
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
