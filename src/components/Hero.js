@@ -14,9 +14,11 @@ const Hero = () => {
           height: "400px",
         }}
       >
-        <div className="py-4">
-          <h1>Driven by the Passion to build a sales legacy</h1>
-          <h1>for African businesses and Aficans</h1>
+        <div className="herotext">
+          <h1>
+            Driven by the Passion to build a sales legacy for African businesses
+            and Aficans
+          </h1>
         </div>
       </div>
     </section>
