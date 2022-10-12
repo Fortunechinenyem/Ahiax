@@ -224,13 +224,41 @@ header {
 /* About */
 
 /* Publishers */
+.publishfeat2 {
+}
 .publishfeat3 {
+  justify-content: space-between;
+  background: linear-gradient(rgb(0, 68, 150), rgb(99, 167, 78));
+}
+.publishfeat33 {
+  gap: 20px;
+}
+.publishfeat4 {
   justify-content: space-between;
 }
 .benefits {
   transform: rotateY("90");
 }
 .benefits2 {
+  justify-content: space-between;
+}
+/* Brands */
+.brandcard {
+  background: var(--clr-alternate);
+  flex-direction: row;
+}
+.brand {
+  justify-content: space-between;
+}
+.brand1 {
+  background: var(--clr-light);
+}
+.brandfeat4 {
+  background: linear-gradient(rgb(0, 68, 150), rgb(99, 167, 78));
+}
+/* Partner */
+.inbetween {
+  flex-direction: column;
   justify-content: space-between;
 }
 /* Footer */

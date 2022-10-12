@@ -88,7 +88,7 @@ const NavLinks = () => {
 
         <NavDropdown.Item eventKey="4.2">
           <Link to="/partner" className="nav__link">
-            Partner
+            Partner Marketing
           </Link>
         </NavDropdown.Item>
 

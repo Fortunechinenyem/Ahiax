@@ -1,11 +1,17 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Navbar2 from "../components/Navbar2";
+import SalesFeat1 from "../components/SalesFeat1";
+import SalesFeat2 from "../components/SalesFeat2";
+
+import SalesHero from "../components/SalesHero";
 
 const SalesNetwork = () => {
   return (
     <>
-      <Navbar2 />
+      <SalesHero />
+      <SalesFeat1 />
+      <SalesFeat2 />
+
       <Footer />
     </>
   );

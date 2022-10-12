@@ -32,6 +32,14 @@ import image31 from "../image/image12.jpg";
 import image32 from "../image/image12.jpg";
 import image33 from "../image/image12.jpg";
 import image34 from "../image/image12.jpg";
+import image40 from "../image/pic40.PNG";
+import image41 from "../image/pic41.PNG";
+import image42 from "../image/pic42.PNG";
+import image50 from "../image/pic50.PNG";
+import image51 from "../image/pic51.PNG";
+import image52 from "../image/pic52.PNG";
+import image53 from "../image/pic53.PNG";
+import image60 from "../image/partner7.PNG";
 
 const Data = {
   homefeatures: [
@@ -332,62 +340,50 @@ const Data = {
       desc: "",
     },
   ],
-  marketfeat10: [
+  brandfeat3: [
     {
       id: 47,
-      img: image6,
-      title: "Fashion",
-      desc: "Leverage your network and our offers to generate wealth.",
+      img: image50,
+      title: "High Performing Sales Team",
+      desc: "The ElanX sales team is scattered across various customer segments and locations across the country. We consider training and account management as key to achieving success for our brands. We will help your brand scale through our reach.",
     },
     {
       id: 49,
-      img: image7,
-      title: "Health and Beauty",
-      desc: "Partner with Top Brands",
+      img: image51,
+      title: "High Traffic Publishers",
+      desc: "Content brands with a loyal audience they're great at developing interesting and engaging content that inspires their readers to buy.",
     },
     {
       id: 50,
-      img: image8,
-      title: "Mobile and Computing",
-      desc: "Leverage your network and generate wealth",
+      img: image52,
+      title: "Influencers with Authority",
+      desc: "luential people with trust and authority in their respective industry – their loyal followers on social media purchase products based on their recommendations.",
     },
     {
       id: 51,
-      img: image34,
-      title: "Home and Garden",
-      desc: "Our Partner Marketing Solution",
+      img: image53,
+      title: "Performance Marketing Experts ",
+      desc: "Online advertising experts they specialize in profitably scaling product sales on online traffic channels and international markets and only get paid for results.",
     },
   ],
-  marketfeat11: [
+  salesfeat2: [
     {
-      id: 6,
-      img: image6,
-      title: "Fashion",
-      desc: "Leverage your network and our offers to generate wealth.",
+      id: 40,
+      img: image40,
+      title: "Register",
+      desc: "Follow our easy to fill form to register.  Ensure you include accurate and updated details to maximise your sales opportunities, earnings and rewards.",
     },
     {
-      id: 7,
-      img: image7,
-      title: "Health and Beauty",
-      desc: "Partner with Top Brands",
+      id: 41,
+      img: image41,
+      title: "For Stores",
+      desc: "If you own an offline and/ or online store you can register as an order point or register as an individual and upgrade later.",
     },
     {
-      id: 8,
-      img: image8,
-      title: "Mobile and Computing",
-      desc: "Leverage your network and generate wealth",
-    },
-    {
-      id: 9,
-      img: image9,
-      title: "Home and Garden",
-      desc: "Our Partner Marketing Solution",
-    },
-    {
-      id: 10,
-      img: image10,
-      title: "Real Estate and Construction",
-      desc: "Join our Affiliate community",
+      id: 42,
+      img: image42,
+      title: "onboarding",
+      desc: "After you have completed your registrations you should get an onboarding email from Ahiax and a call in 48hrs to onboard you and give you more information. ",
     },
   ],
 
@@ -396,25 +392,48 @@ const Data = {
       id: 50,
       img: "",
       title: "Huge Demand",
-      desc: "",
+      desc: "Our innovative solutions from trusted brands will add real value to your audience – inspiring them to buy immediately.",
     },
     {
       id: 51,
       img: "",
       title: "Smooth Funnels",
-      desc: "",
+      desc: "We create smooth user experiences, ensuring you always get the best possible results from your traffic.",
     },
     {
       id: 52,
       img: "",
       title: "Top Rated Items",
-      desc: "",
+      desc: "With our exclusive bundles, discounts, and upsells, your sales will always be well above average and so will the commissions.",
     },
     {
       id: 53,
       img: "",
       title: "All you need to do is bring the traffic",
       desc: "",
+    },
+  ],
+  partnerfeat3: [
+    {
+      id: 60,
+      img: image60,
+      title: "Professional",
+      amount: "$55/mo",
+      desc: "This is a Price List paragraph. Write a short overview including a description of your plan or service, important features and any other relevant info for a potential customer.",
+    },
+    {
+      id: 61,
+      img: "",
+      title: "Basic",
+      amount: "$29/mo",
+      desc: "This is a Price List paragraph. Write a short overview including a description of your plan or service, important features and any other relevant info for a potential customer.",
+    },
+    {
+      id: 62,
+      img: "",
+      title: "Enterprise",
+      amount: "$70/mo",
+      desc: "This is a Price List paragraph. Write a short overview including a description of your plan or service, important features and any other relevant info for a potential customer.",
     },
   ],
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/pic15.jpg";
+import logo from "../image/pic55.PNG";
 const PublishHero = () => {
   return (
     <section className="mt-3 mb-3">

@@ -11,6 +11,7 @@ import Affiliate from "./pages/Affiliate";
 import Login from "./pages/Login";
 import Publishers from "./pages/Publishers";
 import NavBar from "./components/Navbar2";
+import Partner from "./pages/Partner";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/salesnetwork" element={<SalesNetwork />} />
         <Route path="/affiliate" element={<Affiliate />} />
         <Route path="/publishers" element={<Publishers />} />
+        <Route path="/partner" element={<Partner />} />
         <Route path="/login" element={<Login />} />
         <Route path="/marketplace" element={<Marketplace />} />
       </Routes>

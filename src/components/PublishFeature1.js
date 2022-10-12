@@ -8,9 +8,15 @@ const PublishFeat1 = () => {
       <Card className="text-center w-75 mx-auto">
         <Card.Body className="card-body2">
           <Card.Title>
-            <h1>Really, really get to be a BOSS!</h1>
+            <h2>Really, really get to be a BOSS!</h2>
           </Card.Title>
-          <Card.Text>Lorem10</Card.Text>
+          <Card.Text>
+            It's your 'PrimeTime' to make money with no limits, there may never
+            be a moment like this. ​ Your traffic deserves to be milked! We'll
+            build unique offers; build online strategies, analyze data, and
+            craft digital experiences that drive higher conversion among your
+            audience.{" "}
+          </Card.Text>
         </Card.Body>
       </Card>
     </>
