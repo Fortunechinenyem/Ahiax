@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/pic55.PNG";
+
 const PartnerFeat1 = () => {
   return (
     <section className="mt-5 mb-3">
