@@ -1,19 +1,18 @@
 import React from "react";
-import background from "../image/image6.jpg";
+import logo from "../image/markethero.PNG";
 const MarketHero = () => {
   return (
-    <section className="mt-3 markethero">
-      <div
-        className="hero"
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          width: "100%",
-          height: "400px",
-        }}
-      ></div>
+    <section className="mt-3 mb-3 markethero text-white ">
+      <div className="d-flex">
+        <div className="py-5 w-50">
+          <h1>Extra 30% off Mobile Accessories</h1>
+          <p>Limited Time Offer</p>
+          <button className="btn btn-light">Get 30% Off</button>
+        </div>
+        <div className="w-50">
+          <img src={logo} alt={MarketHero.jpg} />
+        </div>
+      </div>
     </section>
   );
 };

@@ -4,7 +4,7 @@ const PublishFeat3 = () => {
   return (
     <>
       <section className="mt-3 mb-3 publishfeat3">
-        <div className="d-flex publishfeat3 w-100 mx-auto g-3  ">
+        {/* <div className="d-flex publishfeat3 w-100 mx-auto g-3  ">
           <div>
             <h2>Who Could be an Affiliate?</h2>
             <p>
@@ -46,7 +46,7 @@ const PublishFeat3 = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

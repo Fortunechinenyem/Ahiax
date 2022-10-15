@@ -10,8 +10,8 @@ const PublishFeat5 = () => {
         </button>
       </div>
 
-      <div className="d-flex ">
-        <div className="col-md-4 col-sm-12">
+      <div className="d-flex container row g-5 mx-auto ">
+        <div className="col-md-4 ">
           <div>
             <h4>01. Get Started</h4>
             <p>
@@ -29,10 +29,10 @@ const PublishFeat5 = () => {
             </p>
           </div>
         </div>
-        <div className="col-md-4 col-sm-12">
+        <div className="col-md-4 ">
           <img src={logo} alt={PublishFeat5.jpg} />
         </div>
-        <div className="col-md-4 col-sm-6">
+        <div className="col-md-4 ">
           <div>
             <h4>02. Creative Library</h4>
             <p>

@@ -75,25 +75,30 @@ const NavLinks = () => {
 
       <NavDropdown title="Services" id="nav-dropdown">
         <NavDropdown.Item eventKey="4.1">
-          <Link to="/publishers" className="nav__link">
+          <Link to="/platform" className="nav-link">
+            Platform
+          </Link>
+        </NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.2">
+          <Link to="/publishers" className="nav-link">
             Publishers
           </Link>
         </NavDropdown.Item>
 
-        <NavDropdown.Item eventKey="4.2">
-          <Link to="/brands" className="nav__link">
+        <NavDropdown.Item eventKey="4.3">
+          <Link to="/brands" className="nav-link">
             Brands
           </Link>
         </NavDropdown.Item>
 
-        <NavDropdown.Item eventKey="4.2">
-          <Link to="/partner" className="nav__link">
+        <NavDropdown.Item eventKey="4.4">
+          <Link to="/partner" className="nav-link">
             Partner Marketing
           </Link>
         </NavDropdown.Item>
 
-        <NavDropdown.Item eventKey="4.2">
-          <Link to="/salesnetwork" className="nav__link">
+        <NavDropdown.Item eventKey="4.5">
+          <Link to="/salesnetwork" className="nav-link">
             Sales-Network
           </Link>
         </NavDropdown.Item>
@@ -112,7 +117,13 @@ const NavLinks = () => {
   );
 };
 const LoginButton = () => {
-  return <Button>Login</Button>;
+  return (
+    <Button>
+      <Link to="/login" className="nav-link">
+        Login
+      </Link>
+    </Button>
+  );
 };
 const NavBar = () => {
   return (

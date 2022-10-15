@@ -1,21 +1,21 @@
-import image1 from "../image/pic1.PNG";
-import image2 from "../image/pic3.PNG";
-import image3 from "../image/pic1.PNG";
-import image4 from "../image/pic1.PNG";
-import image5 from "../image/pic1.PNG";
+import image1 from "../image/homepic1.PNG";
+import image2 from "../image/homepic2.PNG";
+import image3 from "../image/homepic3.PNG";
+import image4 from "../image/homepic4.PNG";
+import image5 from "../image/homecommunity.PNG";
 import image6 from "../image/image12.jpg";
 import image7 from "../image/image13.jpg";
 import image8 from "../image/image11.jpg";
 import image9 from "../image/image14.jpg";
 import image10 from "../image/image18.jpg";
-import image11 from "../image/image1.jpg";
-import image12 from "../image/image1.jpg";
-import image13 from "../image/image1.jpg";
-import image14 from "../image/image1.jpg";
-import image15 from "../image/image13.jpg";
-import image16 from "../image/image13.jpg";
-import image17 from "../image/image13.jpg";
-import image18 from "../image/image13.jpg";
+import image11 from "../image/markfash1.PNG";
+import image12 from "../image/markfash2.PNG";
+import image13 from "../image/markfash3.PNG";
+import image14 from "../image/markfash4.PNG";
+import image15 from "../image/markhealth.PNG";
+import image16 from "../image/markhealth2.PNG";
+import image17 from "../image/markhealth3.PNG";
+import image18 from "../image/markhealth4.PNG";
 import image19 from "../image/image15.jpg";
 import image20 from "../image/image15.jpg";
 import image21 from "../image/image15.jpg";
@@ -28,10 +28,14 @@ import image27 from "../image/image11.jpg";
 import image28 from "../image/image11.jpg";
 import image29 from "../image/image11.jpg";
 import image30 from "../image/image11.jpg";
-import image31 from "../image/image12.jpg";
-import image32 from "../image/image12.jpg";
-import image33 from "../image/image12.jpg";
-import image34 from "../image/image12.jpg";
+import image31 from "../image/newarrive1.PNG";
+import image32 from "../image/newarrive2.PNG";
+import image33 from "../image/newarrive3.PNG";
+import image34 from "../image/newarrive4.PNG";
+import image35 from "../image/popularbrands1.PNG";
+import image36 from "../image/popularbrands2.PNG";
+import image37 from "../image/popularbrands3.PNG";
+import image38 from "../image/popularbrands4.PNG";
 import image40 from "../image/pic40.PNG";
 import image41 from "../image/pic41.PNG";
 import image42 from "../image/pic42.PNG";
@@ -40,6 +44,14 @@ import image51 from "../image/pic51.PNG";
 import image52 from "../image/pic52.PNG";
 import image53 from "../image/pic53.PNG";
 import image60 from "../image/partner7.PNG";
+import image70 from "../image/weeklydeal1.PNG";
+import image71 from "../image/weeklydeal2.PNG";
+import image72 from "../image/weeklydeal3.PNG";
+import image73 from "../image/weeklydeal4.PNG";
+import image80 from "../image/popularproducts1.PNG";
+import image81 from "../image/popularproducts2.PNG";
+import image82 from "../image/popularproducts3.PNG";
+import image83 from "../image/popularproducts4.PNG";
 
 const Data = {
   homefeatures: [
@@ -291,51 +303,77 @@ const Data = {
   marketfeat8: [
     {
       id: 39,
-      img: "",
-      title: "Boohoo",
+      img: image35,
+      title: "",
       desc: "",
     },
     {
       id: 40,
-      img: "",
-      title: "Aeomei",
+      img: image36,
+      title: "",
       desc: "",
     },
     {
       id: 41,
-      img: "",
-      title: "M & S",
+      img: image37,
+      title: "",
       desc: "",
     },
     {
       id: 42,
-      img: "",
-      title: "Primark",
+      img: image38,
+      title: "",
       desc: "",
     },
   ],
   marketfeat9: [
     {
       id: 43,
-      img: image6,
+      img: image80,
       title: "",
-      desc: "",
+      desc: "Men's Fashion",
     },
     {
       id: 44,
-      img: image7,
+      img: image81,
       title: "",
-      desc: "",
+      desc: "Make Up",
     },
     {
       id: 45,
-      img: image8,
+      img: image82,
+      title: "",
+      desc: "Mobile Accessories",
+    },
+    {
+      id: 46,
+      img: image83,
+      title: "",
+      desc: "Heels",
+    },
+  ],
+  marketfeat10: [
+    {
+      id: 70,
+      img: image70,
       title: "",
       desc: "",
     },
     {
-      id: 46,
-      img: image34,
+      id: 71,
+      img: image71,
+      title: "",
+      desc: "",
+    },
+    {
+      id: 72,
+      img: image72,
+      title: "",
+      desc: "",
+    },
+    {
+      id: 73,
+      img: image73,
       title: "",
       desc: "",
     },

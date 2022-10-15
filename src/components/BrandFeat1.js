@@ -3,12 +3,12 @@ import Button from "react-bootstrap/Button";
 
 const BrandFeat1 = () => {
   return (
-    <article className="brand1 ">
-      <div className="text-center mt-3 mb-3 w-75 mx-auto ">
+    <article className=" ">
+      <div className="text-center mt-3 mb-3 w-100 mx-auto ">
         <div className="">
           <h3 className="mt-3 mb-5">Connect with your target audience</h3>
 
-          <div className="d-flex brand">
+          <div className="d-flex  ">
             <div className="w-50">
               <p>
                 We provide our advertisers' devoted representatives with vast
@@ -21,17 +21,17 @@ const BrandFeat1 = () => {
               </p>
             </div>
 
-            <div className="col-sm-6 col-md-6 col-lg-3 brandcard  w-75">
-              <div className="card">
+            <div className=" w-50 ">
+              <div className="col-sm-12 col-md-3 col-lg-3  bg-dark text-white">
                 <h3>Access to Thousands of Affiliates</h3>
               </div>
-              <div className="card">
+              <div className="col-sm-12 col-md-3 col-lg-3 bg-dark text-white">
                 <h3>Sell Your Product or Services Without Caps</h3>
               </div>
-              <div className="card">
+              <div className="col-sm-12 col-md-3 col-lg-3 bg-dark text-white">
                 <h3>Automated Affiliate Payments ​</h3>
               </div>
-              <div className="card">
+              <div className="col-sm-12 col-md-3 col-lg-3 bg-dark text-white">
                 <h3>Personalized Account Management ​</h3>
               </div>
             </div>

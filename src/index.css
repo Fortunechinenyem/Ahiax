@@ -188,8 +188,8 @@ header {
   background: var(--clr-accent);
 }
 .card-body {
-  background: var(--clr-alternate);
-  color: var(--clr-light);
+  background: var(--clr-light);
+  color: var(--clr-dark);
 }
 .card-body1 {
   background: var(--clr-light);
@@ -219,7 +219,16 @@ header {
   justify-content: center;
   align-items: center;
 }
+.homefeatures {
+  justify-content: space-between;
+}
+/* Markeplace */
 .markethero {
+  background: linear-gradient(rgb(0, 68, 150), rgb(99, 167, 78));
+  justify-content: space-between;
+}
+.smallermarkerhero {
+  justify-content: space-around;
 }
 /* About */
 
@@ -260,6 +269,14 @@ header {
 .inbetween {
   flex-direction: column;
   justify-content: space-between;
+}
+/* Sales-Network */
+.salesfeat1 {
+  justify-content: space-between;
+}
+.salesimage {
+  /* height: 100px;
+  width: 100px; */
 }
 /* Footer */
 .footer {

@@ -1,22 +1,28 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+
+import logo from "../image/img1.PNG";
 
 const SmallerMarketHero = () => {
   return (
     <>
-      <Card className="text-center">
-        <Card.Body className="card-body1">
-          <Card.Title>
-            <h1>50% off Orders</h1>
-          </Card.Title>
-          <Card.Text></Card.Text>
-          <Button variant="success" className="m-2">
+      <div className=" d-flex smallermarkerhero col-sm-12 col-md-12 mt-3 mb-3 g-3">
+        <div className="">
+          <img src={logo} alt={SmallerMarketHero.jpg} />
+        </div>
+        <div>
+          <h1>50% off Orders</h1>
+          <p>
+            This is your Banner paragraph. Use this space to write short,
+            engaging text that will inspire your visitors to take action.
+          </p>
+
+          <Button variant="dark" className="m-2">
             Go to Sale
           </Button>
-          <Button variant="success">Shop Collection</Button>
-        </Card.Body>
-      </Card>
+          <Button variant="dark">Shop Collection</Button>
+        </div>
+      </div>
     </>
   );
 };

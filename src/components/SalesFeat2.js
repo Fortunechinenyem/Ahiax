@@ -5,7 +5,7 @@ const MarketFeatures1 = (props) => {
   const { id, img, title, desc } = props;
   return (
     <section>
-      <div key={id} className="card d-flex">
+      <div key={id} className="card d-flex row">
         <div className="card-body1 text-center">
           <img src={img} className="card-img" alt="" />
           <h5 className="card-title text-black">{title}</h5>

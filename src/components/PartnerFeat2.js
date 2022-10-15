@@ -11,9 +11,9 @@ const PartnerFeat2 = () => {
     <article>
       <div className="text-center text-black">
         <h2 className="mb-5">How it works</h2>
-        <div className="  col-sm-12">
-          <div className="d-flex">
-            <div>
+        <div className="container row g-5 mx-auto">
+          <div className="d-flex ">
+            <div className="">
               <div>
                 <img src={logo1} alt={PartnerFeat2.PNG} />
 
@@ -73,7 +73,7 @@ const PartnerFeat2 = () => {
                 </ul>
               </div>
             </div>
-            <div className="dflex">
+            <div className="dflex ">
               <div>
                 <img src={logo2} alt={PartnerFeat2.PNG} />
                 <p>

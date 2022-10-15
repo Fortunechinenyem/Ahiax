@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/saleshero.PNG";
+import logo from "../image/pic43.PNG";
 const SalesHero = () => {
   return (
     <section className="mt-3 mb-3">
@@ -11,7 +11,7 @@ const SalesHero = () => {
             Easy Too.{" "}
           </p>
         </div>
-        <div className="w-50">
+        <div className="w-50 salesimage">
           <img src={logo} alt={SalesHero.jpg} />
         </div>
       </div>
