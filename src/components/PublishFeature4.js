@@ -5,8 +5,8 @@ const PublishFeat4 = () => {
   return (
     <>
       <section className="mt-3 mb-3 publishfeat3 text-white ">
-        <div className="d-flex publishfeat33 container mx-auto ">
-          <div className="col-md-4 ">
+        <div className="d-flex publishfeat33  mx-auto mb-5 ">
+          <div className="col-md text-center">
             <h2>Who Could be an Affiliate?</h2>
             <p>
               This is a Price List paragraph. It's an ideal place to introduce
@@ -14,8 +14,8 @@ const PublishFeat4 = () => {
               important or unique features for your visitors.
             </p>
           </div>
-          <div className="d-flex col-md-8 publishfeat33 row ">
-            <div className=" text-center bg-light text-black">
+          <div className="d-flex col-md-8 publishfeat33 container row ">
+            <div className=" col-sm-12 text-center bg-light text-black">
               <h5 className=" ">Influencers</h5>
               <p className="">You are a trusted Source</p>
               <p>Let's partner to make more sense of your web traffic.</p>
@@ -26,7 +26,7 @@ const PublishFeat4 = () => {
               </ul>
               <button className="btn btn-success mb-3">Sign Up</button>
             </div>
-            <div className="text-center bg-success text-white">
+            <div className="col-sm-12 text-center bg-success text-white">
               <h5 className=" ">Influencers</h5>
               <p className=" ">
                 You've done well to build a following online. Now let's elevate
@@ -38,7 +38,7 @@ const PublishFeat4 = () => {
                 <li>Marketers</li>
                 <li> OR anyone with influence online</li>
               </ul>
-              <button className="btn btn-success mb-3">Sign Up</button>
+              <button className="btn btn-light mb-3">Sign Up</button>
             </div>
           </div>
         </div>
