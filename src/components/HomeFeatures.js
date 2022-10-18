@@ -5,7 +5,7 @@ const HomeFeatures1 = (props) => {
   const { id, img, title, desc } = props;
   return (
     <div key={id} className="card d-flex homefeatures">
-      <div className="row">
+      <div className="">
         <div className="col-md-4 ">
           {" "}
           <img src={img} className="" alt="" />
