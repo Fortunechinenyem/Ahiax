@@ -5,15 +5,17 @@ const HomeFeatures1 = (props) => {
   const { id, img, title, desc } = props;
   return (
     <div key={id} className="card d-flex homefeatures">
-      <div className="col-md-4 ">
-        {" "}
-        <img src={img} className="" alt="" />
-      </div>
+      <div className="row">
+        <div className="col-md-4 ">
+          {" "}
+          <img src={img} className="" alt="" />
+        </div>
 
-      <div className=" text-center col-md-8 ">
-        <h5 className="text-black">{title}</h5>
-        <p className=" text-black">{desc}</p>
-        <button className="btn btn-success mb-2">Sign Up</button>
+        <div className=" text-center col-md-8 ">
+          <h5 className="text-black">{title}</h5>
+          <p className=" text-black">{desc}</p>
+          <button className="btn btn-success mb-2">Sign Up</button>
+        </div>
       </div>
     </div>
   );
