@@ -3,7 +3,7 @@ import logo from "../image/p6.jpg";
 const SalesFeat1 = () => {
   return (
     <section className="mt-3 mb-3 ">
-      <div className="d-flex salesfeat1 ">
+      <div className="d-flex container row mx-auto  ">
         <div className="w-50">
           <img src={logo} alt={SalesFeat1.jpg} />
         </div>
