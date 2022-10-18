@@ -2,7 +2,7 @@ import React from "react";
 
 const PartnerFeat1 = () => {
   return (
-    <section className="mt-5 mb-3">
+    <section className="mt-5 mb-3 container row mx-auto">
       <div className="">
         <div className="">
           <h1 className="text-center mb-5">What Is Partner Marketing?</h1>

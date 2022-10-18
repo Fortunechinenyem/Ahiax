@@ -2,12 +2,12 @@ import React from "react";
 import logo from "../image/partnerhero.PNG";
 const PartnerHero = () => {
   return (
-    <section className="mt-3 mb-3">
+    <section className="mt-3 mb-3 container row mx-auto">
       <div className="d-flex">
-        <div className="w-75">
+        <div className="">
           <img src={logo} alt={PartnerHero.jpg} />
         </div>
-        <div className=" text-black ">
+        <div className=" text-black  ">
           <h3 className="text-center mt-5 py-5">
             Earn More Per Click With Ahiax
           </h3>

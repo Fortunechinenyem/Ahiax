@@ -9,10 +9,10 @@ import logo6 from "../image/partner6.PNG";
 const PartnerFeat2 = () => {
   return (
     <article>
-      <div className="text-center text-black">
+      <div className="text-center text-black container row mx-auto">
         <h2 className="mb-5">How it works</h2>
-        <div className="container row g-5 mx-auto">
-          <div className="d-flex ">
+        <div className="container row  mx-auto">
+          <div className="d-flex  ">
             <div className="">
               <div>
                 <img src={logo1} alt={PartnerFeat2.PNG} />
