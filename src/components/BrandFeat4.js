@@ -3,7 +3,7 @@ import React from "react";
 const BrandFeat4 = () => {
   return (
     <article>
-      <div className="text-center text-black container row mx-auto">
+      <div className="text-center text-black container row mx-auto mt-3">
         <h2 className="text-center section__title section__title--services mb-5">
           How it works
         </h2>
