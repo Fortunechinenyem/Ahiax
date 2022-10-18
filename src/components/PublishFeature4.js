@@ -43,13 +43,13 @@ const PublishFeat4 = () => {
           </div>
         </div>
 
-        <div className="  mx-auto g-3  ">
+        <div className="text-center w-75 mx-auto  ">
           <div className=" text-center mt-3 mb-5">
             <h2 className="benefits">The Benefits</h2>
           </div>
 
-          <div className="d-flex ">
-            <div className="w-75 mx-auto">
+          <div className=" ">
+            <div className=" mb-3 mx-auto">
               <img src={Publishimage} alt="PublishFeat4.PNG" />
             </div>
             <div className=" text-center">
