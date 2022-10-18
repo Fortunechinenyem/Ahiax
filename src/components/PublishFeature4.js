@@ -4,9 +4,9 @@ import Publishimage from "../image/pic56.PNG";
 const PublishFeat4 = () => {
   return (
     <>
-      <section className="mt-3 mb-3 publishfeat3 text-white">
-        <div className="d-flex publishfeat33 ">
-          <div className="col-md-4">
+      <section className="mt-3 mb-3 publishfeat3 text-white ">
+        <div className="d-flex publishfeat33 container mx-auto ">
+          <div className="col-md-4 ">
             <h2>Who Could be an Affiliate?</h2>
             <p>
               This is a Price List paragraph. It's an ideal place to introduce
@@ -14,7 +14,7 @@ const PublishFeat4 = () => {
               important or unique features for your visitors.
             </p>
           </div>
-          <div className="d-flex col-md-8 publishfeat33">
+          <div className="d-flex col-md-8 publishfeat33 row ">
             <div className=" text-center bg-light text-black">
               <h5 className=" ">Influencers</h5>
               <p className="">You are a trusted Source</p>

@@ -3,7 +3,7 @@ import React from "react";
 const PublishFeat1 = () => {
   return (
     <section>
-      <div className="text-center w-75 mx-auto">
+      <div className="text-center w-75 mx-auto container">
         <h2>Really, really get to be a BOSS!</h2>
 
         <p>
