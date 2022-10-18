@@ -3,17 +3,15 @@ import logo from "../image/p1.jpg";
 const Hero = () => {
   return (
     <section className="mt-3 mb-3  text-black ">
-      <div className="d-flex card">
-        <div className="row">
-          <div className="py-5 w-50">
-            <h1>
-              Driven by the Passion to build a sales legacy for African
-              businesses and Aficans
-            </h1>
-          </div>
-          <div className="w-50">
-            <img src={logo} alt={Hero.jpg} />
-          </div>
+      <div className="d-flex">
+        <div className="py-5 w-50 col-sm-12">
+          <h1>
+            Driven by the Passion to build a sales legacy for African businesses
+            and Aficans
+          </h1>
+        </div>
+        <div className="w-50 col-sm-12">
+          <img src={logo} alt={Hero.jpg} />
         </div>
       </div>
     </section>
