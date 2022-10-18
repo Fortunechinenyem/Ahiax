@@ -1,19 +1,14 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 
 const BrandFeat5 = () => {
   return (
     <>
-      <Card className="text-center">
-        <Card.Body className="card-body1">
-          <Card.Title>
-            Ready To Profitably Acquire Customers At Scale?
-          </Card.Title>
-          <Card.Text></Card.Text>
-          <Button variant="success">Become a Brand Partner</Button>
-        </Card.Body>
-      </Card>
+      <div className="text-center mt-3 mb-3">
+        <h2>Ready To Profitably Acquire Customers At Scale?</h2>
+
+        <Button variant="success">Become a Brand Partner</Button>
+      </div>
     </>
   );
 };
