@@ -44,15 +44,14 @@ const PublishFeat4 = () => {
         </div>
 
         <div className="  mx-auto g-3  ">
+          <div className=" text-center mt-3 mb-5">
+            <h2 className="benefits">The Benefits</h2>
+          </div>
           <div className="  ">
-            <div className="w-75 mx-auto">
-              <img src={Publishimage} alt="PublishFeat4.PNG" />
-            </div>
             <div className="d-flex publishfeat4">
-              <div className="  benefits2">
-                <h2 className="benefits">The Benefits</h2>
+              <div className="w-75 mx-auto">
+                <img src={Publishimage} alt="PublishFeat4.PNG" />
               </div>
-
               <div className=" text-center">
                 <h4 className="">Your Traffic has never been so profitable!</h4>
                 <p className="">We Provide all you need</p>
