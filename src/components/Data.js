@@ -52,6 +52,14 @@ import image80 from "../image/popularproducts1.PNG";
 import image81 from "../image/popularproducts2.PNG";
 import image82 from "../image/popularproducts3.PNG";
 import image83 from "../image/popularproducts4.PNG";
+import image91 from "../image/fash1.PNG";
+import image92 from "../image/fash2.PNG";
+import image93 from "../image/fash3.PNG";
+import image94 from "../image/fash4.PNG";
+import image95 from "../image/fash5.PNG";
+import image96 from "../image/fash6.PNG";
+import image97 from "../image/fash7.PNG";
+import image98 from "../image/fash8.PNG";
 
 const Data = {
   homefeatures: [
@@ -472,6 +480,76 @@ const Data = {
       title: "Enterprise",
       amount: "$70/mo",
       desc: "This is a Price List paragraph. Write a short overview including a description of your plan or service, important features and any other relevant info for a potential customer.",
+    },
+  ],
+  fashion: [
+    {
+      id: 70,
+      img: image91,
+      title: "Old Navy Short Sleeve T-shirt in Green Stripe | pack of 10 units",
+      desc: "-",
+      price: 54000,
+    },
+    {
+      id: 71,
+      img: image92,
+      title: "Zikel Pressed Powder",
+      desc: "-",
+      price: 1700,
+    },
+    {
+      id: 72,
+      img: image93,
+      title: "Hailey Female Wrist Watch | Pack of 72 units",
+      desc: "",
+      price: 108000,
+    },
+    {
+      id: 73,
+      img: image94,
+      title:
+        "Pretty Little thing Bandeau Bodycon Midi Dress | Pack of 20 units",
+      desc: "-",
+      price: 130000,
+    },
+    {
+      id: 74,
+      img: image95,
+      title:
+        "Zara Women's short in various styles and colour | Pack of 10 units",
+      desc: "-",
+      price: 44000,
+    },
+    {
+      id: 75,
+      img: image96,
+      title:
+        "Zara Women's Skirt in Various Styles and Colour | Pack of 40 units",
+      desc: "-",
+      price: 160000,
+    },
+    {
+      id: 76,
+      img: image97,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 77,
+      img: image98,
+      title: "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Grey | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 78,
+      img: image98,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
     },
   ],
 };

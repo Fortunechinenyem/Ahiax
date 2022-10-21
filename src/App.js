@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Marketplace from "./pages/Markeplace";
+import Marketplace from "./pages/Marketplace";
 import Brands from "./pages/Brands";
 import SalesNetwork from "./pages/SalesNetwork";
 import Affiliate from "./pages/Affiliate";
@@ -14,6 +14,9 @@ import Partner from "./pages/Partner";
 import Platform from "./pages/Platform";
 import MobileComputing from "./pages/MobileComputing";
 import Fashion from "./pages/Fashion";
+import HealthBeauty from "./pages/HealthBeauty";
+import RealEstate from "./pages/RealEstate";
+import HomeGarden from "./pages/HomeGarden";
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
         <Route path="/marketplace" element={<Marketplace />} />
         <Route path="/fashion" element={<Fashion />} />
         <Route path="/mobilecomputing" element={<MobileComputing />} />
+        <Route path="/healthbeauty" element={<HealthBeauty />} />
+        <Route path="/realestate" element={<RealEstate />} />
+        <Route path="/homegarden" element={<HomeGarden />} />
       </Routes>
     </article>
   );

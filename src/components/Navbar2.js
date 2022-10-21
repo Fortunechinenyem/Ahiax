@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { NavLink as Link, useNavigate } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../image/logo1.svg";
+import NavCartButton from "./productcart/NavCartButton";
 const Nav = styled("nav")`
   padding: 1.5rem 0;
   background-color: #268f7d;
@@ -104,15 +105,37 @@ const NavLinks = () => {
         </NavDropdown.Item>
       </NavDropdown>
 
-      <li className="nav-item">
-        <Link
-          className="nav-link"
-          to="/marketplace"
-          style={{ color: "#268f7d" }}
-        >
-          Marketplace
-        </Link>
-      </li>
+      <NavDropdown title="Marketplace" id="nav-dropdown">
+        <Link to="/marketplace" className="nav-link"></Link>
+        <NavDropdown.Item eventKey="4.1">
+          <Link to="/fashion" className="nav-link">
+            Fashion
+          </Link>
+        </NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.2">
+          <Link to="/homegarden" className="nav-link">
+            Home and Garden
+          </Link>
+        </NavDropdown.Item>
+
+        <NavDropdown.Item eventKey="4.3">
+          <Link to="/mobilecomputing" className="nav-link">
+            Mobile and Computing
+          </Link>
+        </NavDropdown.Item>
+
+        <NavDropdown.Item eventKey="4.4">
+          <Link to="/healthbeauty" className="nav-link">
+            Health and Beauty
+          </Link>
+        </NavDropdown.Item>
+
+        <NavDropdown.Item eventKey="4.5">
+          <Link to="/realestate" className="nav-link">
+            Real Estate
+          </Link>
+        </NavDropdown.Item>
+      </NavDropdown>
     </LinksWrapper>
   );
 };
@@ -137,7 +160,8 @@ const NavBar = () => {
         <SearchBar />
         <NavLinks />
         <ButtonWrapper>
-          <LoginButton />
+          <LoginButton className="m-2" />
+          <NavCartButton className="m-2" />
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>

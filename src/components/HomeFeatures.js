@@ -4,7 +4,7 @@ import Data from "../components/Data";
 const HomeFeatures1 = (props) => {
   const { id, img, title, desc } = props;
   return (
-    <div key={id} className="card d-flex homefeatures">
+    <div key={id} className="  row homefeatures">
       <div className="">
         <div className="col-md-4 ">
           {" "}

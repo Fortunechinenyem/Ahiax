@@ -2,12 +2,12 @@ import React from "react";
 import Itemcard from "../components/productcart/Itemcard";
 import data from "../components/Data";
 
-const HomeGarden = () => {
+const HealthBeauty = () => {
   return (
     <>
       <section className="py-4 container">
         <div className="text-center section__title section__title--services">
-          <h1>Home and Garden</h1>
+          <h1>Health and Beauty</h1>
         </div>
         <div className="row justify-content-center">
           {data.fashion.map((item, index) => {
@@ -27,5 +27,4 @@ const HomeGarden = () => {
     </>
   );
 };
-
-export default HomeGarden;
+export default HealthBeauty;
