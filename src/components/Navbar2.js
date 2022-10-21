@@ -106,7 +106,10 @@ const NavLinks = () => {
       </NavDropdown>
 
       <NavDropdown title="Marketplace" id="nav-dropdown">
-        <Link to="/marketplace" className="nav-link"></Link>
+        <NavDropdown.Item eventKey="4.1">
+          <Link to="/marketplace" className="nav-link"></Link>
+        </NavDropdown.Item>
+
         <NavDropdown.Item eventKey="4.1">
           <Link to="/fashion" className="nav-link">
             Fashion
