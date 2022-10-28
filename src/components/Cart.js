@@ -1,6 +1,10 @@
 import React from "react";
+import Kart from "./productcart/Kart";
 
-const Cart = () => {
-  return <></>;
-};
-export default Cart;
+export default function Cart() {
+  return (
+    <section>
+      <Kart />
+    </section>
+  );
+}

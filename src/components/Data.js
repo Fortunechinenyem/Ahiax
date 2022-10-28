@@ -52,14 +52,14 @@ import image80 from "../image/popularproducts1.PNG";
 import image81 from "../image/popularproducts2.PNG";
 import image82 from "../image/popularproducts3.PNG";
 import image83 from "../image/popularproducts4.PNG";
-import image91 from "../image/fash1.PNG";
-import image92 from "../image/fash2.PNG";
-import image93 from "../image/fash3.PNG";
-import image94 from "../image/fash4.PNG";
-import image95 from "../image/fash5.PNG";
-import image96 from "../image/fash6.PNG";
-import image97 from "../image/fash7.PNG";
-import image98 from "../image/fash8.PNG";
+import image91 from "../image/f1.PNG";
+import image92 from "../image/f2.PNG";
+import image93 from "../image/f3.PNG";
+import image94 from "../image/f4.PNG";
+import image95 from "../image/f5.PNG";
+import image96 from "../image/f6.PNG";
+import image97 from "../image/f7.PNG";
+import image98 from "../image/f8.PNG";
 
 const Data = {
   homefeatures: [

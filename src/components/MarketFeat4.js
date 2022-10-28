@@ -7,7 +7,13 @@ const MarketFeatures1 = (props) => {
     <section>
       <div key={id} className="card d-flex">
         <div className="card-body1 text-center">
-          <img src={img} className="card-img" alt="" />
+          <img
+            src={img}
+            className="card-img"
+            alt=""
+            height="200px"
+            style={{ objectFit: "cover" }}
+          />
           <h5 className="card-title text-black">{title}</h5>
           <p className="card-text text-black">{desc}</p>
         </div>

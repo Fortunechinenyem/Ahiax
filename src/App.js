@@ -17,6 +17,7 @@ import Fashion from "./pages/Fashion";
 import HealthBeauty from "./pages/HealthBeauty";
 import RealEstate from "./pages/RealEstate";
 import HomeGarden from "./pages/HomeGarden";
+import Orders from "./pages/Orders";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/healthbeauty" element={<HealthBeauty />} />
         <Route path="/realestate" element={<RealEstate />} />
         <Route path="/homegarden" element={<HomeGarden />} />
+        <Route path="/orders" element={<Orders />} />
       </Routes>
     </article>
   );

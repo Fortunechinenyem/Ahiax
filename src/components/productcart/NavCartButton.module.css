@@ -1,5 +1,5 @@
 .cart__button {
-  background-color: #e5f5f2;
+  background-color: #dce4e2;
   color: var(--accent);
   padding: 10px 0;
   width: 80px;
@@ -12,7 +12,7 @@
   display: inline-block;
   margin-right: 5px;
   font-size: 18px;
-  color: var(--light);
+  color: var(--accent);
 }
 
 .cart__button .badge {

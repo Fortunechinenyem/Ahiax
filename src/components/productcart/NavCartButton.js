@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useCart } from "react-use-cart";
+import { BsCart3 } from "react-icons/bs";
 import classes from "./NavCartButton.module.css";
 
 const NavCartButton = (props) => {
@@ -45,8 +46,10 @@ const NavCartButton = (props) => {
   //Rendering the Cart button on the DOM
   return (
     <div onClick={props.onClick} className={btnBump}>
-      <i className="bi bi-cart"></i>
-      Cart
+      <i className="">
+        <BsCart3 />
+      </i>
+
       <div className={classes.badge}>{numberOfCartItems}</div>
     </div>
   );

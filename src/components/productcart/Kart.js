@@ -1,6 +1,7 @@
 import React from "react";
 import { useCart } from "react-use-cart";
 import { Link } from "react-router-dom";
+import Data1 from "../productcart/Data";
 
 const Kart = () => {
   const {
@@ -13,13 +14,13 @@ const Kart = () => {
     removeItem,
     emptyCart,
   } = useCart();
-  if (isEmpty) return <h1>Your Cart is empty</h1>;
+  if (isEmpty) return <h2>Your Cart is empty</h2>;
   return (
     <section className="container">
       <div className=" ">
         <div className="">
           <div className="card mb-4 w-75 mx-auto">
-            {items.map((item, index) => {
+            {Data1.map((item, index) => {
               return (
                 <div key={index} className=" card-body">
                   <div>

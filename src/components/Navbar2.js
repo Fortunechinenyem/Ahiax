@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+
 import { NavLink as Link, useNavigate } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../image/logo1.svg";
@@ -139,6 +140,11 @@ const NavLinks = () => {
           </Link>
         </NavDropdown.Item>
       </NavDropdown>
+      <li className="nav-item ">
+        <Link className="nav-link" to="/orders">
+          Orders
+        </Link>
+      </li>
     </LinksWrapper>
   );
 };
@@ -164,7 +170,10 @@ const NavBar = () => {
         <NavLinks />
         <ButtonWrapper>
           <LoginButton className="m-2" />
-          <NavCartButton className="m-2" />
+          <NavCartButton
+            className="m-2 rounded-circle"
+            variant="outline primary"
+          />
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>

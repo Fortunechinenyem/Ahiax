@@ -8,7 +8,13 @@ const HomeFeatures1 = (props) => {
       <div className="">
         <div className="col-md-4 ">
           {" "}
-          <img src={img} className="" alt="" />
+          <img
+            src={img}
+            className=""
+            alt=""
+            height="200px"
+            style={{ objectFit: "cover" }}
+          />
         </div>
 
         <div className=" text-center col-md-8 ">
