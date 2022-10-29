@@ -50,7 +50,12 @@ const PublishFeat4 = () => {
 
           <div className=" ">
             <div className=" mb-3 mx-auto">
-              <img src={Publishimage} alt="PublishFeat4.PNG" />
+              <img
+                src={Publishimage}
+                alt="PublishFeat4.PNG"
+                height="200px"
+                style={{ objectFit: "cover" }}
+              />
             </div>
             <div className=" text-center">
               <h4 className="">Your Traffic has never been so profitable!</h4>

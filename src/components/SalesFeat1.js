@@ -5,7 +5,12 @@ const SalesFeat1 = () => {
     <section className="mt-3 mb-3 ">
       <div className="d-flex container row mx-auto  ">
         <div className="w-50">
-          <img src={logo} alt={SalesFeat1.jpg} />
+          <img
+            src={logo}
+            alt={SalesFeat1.jpg}
+            height="200px"
+            style={{ objectFit: "cover" }}
+          />
         </div>
         <div className="py-5 w-50 text-center">
           <h2>The Ahiax Sales Network</h2>

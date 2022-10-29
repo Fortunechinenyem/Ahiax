@@ -11,7 +11,12 @@ const Hero = () => {
           </h1>
         </div>
         <div className="w-50 ">
-          <img src={logo} alt={Hero.jpg} />
+          <img
+            src={logo}
+            alt={Hero.jpg}
+            height="300px"
+            style={{ objectFit: "cover" }}
+          />
         </div>
       </div>
     </section>

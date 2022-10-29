@@ -5,7 +5,7 @@ const BrandFeat5 = () => {
   return (
     <>
       <div className="text-center mt-3 mb-3">
-        <h2>Ready To Profitably Acquire Customers At Scale?</h2>
+        <h2>Ready To Acquire Customers At Scale?</h2>
 
         <Button variant="success">Become a Brand Partner</Button>
       </div>

@@ -1,10 +1,10 @@
 import React from "react";
-import Kart from "./productcart/Kart";
+import Carty from "./Carty";
 
 export default function Cart() {
   return (
     <section>
-      <Kart />
+      <Carty />
     </section>
   );
 }
