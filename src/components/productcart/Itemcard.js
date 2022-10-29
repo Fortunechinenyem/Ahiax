@@ -1,7 +1,7 @@
 import React from "react";
 import { useCart } from "react-use-cart";
 
-const Itemcard = (props) => {
+function Itemcard(props) {
   const { addItem } = useCart();
   return (
     <div className="col-sm-6 col-md-4  mb-4 ">
@@ -24,9 +24,48 @@ const Itemcard = (props) => {
             Add to Cart
           </button>
         </div>
+        <div>
+          <Increment />
+          <Decrement />
+        </div>
       </div>
     </div>
   );
-};
-
+}
+function Increment() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      className="plus-icon"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+      />
+    </svg>
+  );
+}
+function Decrement() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      className="plus-icon"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M18 12H6"
+      />
+    </svg>
+  );
+}
 export default Itemcard;
