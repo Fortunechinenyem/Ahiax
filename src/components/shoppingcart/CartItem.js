@@ -11,7 +11,7 @@ function CartItem(props) {
       </div>
       <div className="cart-price">
         <p className="cart-cross">x</p>
-        <p className="price">$ 19.00</p>
+        <p className="price">N 2500.00</p>
         <div>
           <Increment />
           <Decrement />

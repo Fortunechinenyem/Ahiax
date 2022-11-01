@@ -42,7 +42,7 @@ class Products extends React.Component {
         </div>
         <div className="flex wrap">
           {products.map((product) => (
-            <Products {...product} />
+            <Product {...product} />
           ))}
         </div>
       </div>
@@ -54,11 +54,7 @@ function Product(props) {
   return (
     <div className="product-item">
       <div className="product-label">Free Shipping</div>
-      <img
-        className="product-item-img"
-        src={`/static/products/${props.sku}_1.jpg`}
-        alt={props.title}
-      />
+      <img className="product-item-img" src={props.img} alt={props.title} />
       <div className="product-item-details">
         <p className="product-item-title">{props.title}</p>
         <div className="line"></div>
@@ -70,4 +66,4 @@ function Product(props) {
     </div>
   );
 }
-export default Product;
+export default Products;

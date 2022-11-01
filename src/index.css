@@ -611,7 +611,7 @@ table {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #eabf00;
+  background: #0da88e;
   color: black;
   position: absolute;
   text-align: center;
@@ -639,7 +639,7 @@ table {
 }
 .plus-icon {
   font-size: 12px;
-  background: black;
+  background: rgb(49, 155, 141);
   margin-right: 5px;
   display: inline-flex;
   width: 20px;
@@ -676,7 +676,7 @@ p {
   color: white;
 }
 .cart-checkout {
-  background: #272727;
+  background: #e6dede;
   padding: 25px 20px;
 }
 .cart-checkout div {

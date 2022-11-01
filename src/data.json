@@ -9,7 +9,7 @@
       "installments": 9,
       "isFreeShipping": true,
       "price": 10.9,
-      "sku": 12064273040195392,
+      "img": "../image/f1.PNG",
       "style": "Black with custom print",
       "title": "Cat Tee Black T-Shirt"
     },
@@ -22,7 +22,7 @@
       "installments": 5,
       "isFreeShipping": true,
       "price": 29.45,
-      "sku": 51498472915966370,
+      "img": "../image/f1.PNG",
       "style": "Front print and paisley print",
       "title": "Dark Thug Blue-Navy T-Shirt"
     },
@@ -35,7 +35,7 @@
       "installments": 3,
       "isFreeShipping": true,
       "price": 9,
-      "sku": 10686354557628304,
+      "img": "../image/f1.PNG",
       "style": "Front tie dye print",
       "title": "Sphynx Tie Dye Wine T-Shirt"
     },
@@ -48,9 +48,9 @@
       "installments": 5,
       "isFreeShipping": true,
       "price": 14,
-      "sku": 11033926921508488,
+      "img": "../image/f1.PNG",
       "style": "Black T-Shirt with front print",
-      "title": "Skuul"
+      "title": "imgul"
     },
     {
       "availableSizes": ["X", "L"],
@@ -61,9 +61,9 @@
       "installments": 3,
       "isFreeShipping": true,
       "price": 13.25,
-      "sku": 39876704341265610,
+      "img": "../image/f1.PNG",
       "style": "Wine",
-      "title": "Wine Skul T-Shirt"
+      "title": "Wine imgl T-Shirt"
     },
     {
       "availableSizes": ["X", "L", "XL", "XXL"],
@@ -74,7 +74,7 @@
       "installments": 9,
       "isFreeShipping": true,
       "price": 10.9,
-      "sku": 8552515751438644,
+      "img": "../image/f1.PNG",
       "style": "Branco com listras pretas",
       "title": "Cat Tee Black T-Shirt"
     },
@@ -87,7 +87,7 @@
       "installments": 9,
       "isFreeShipping": true,
       "price": 10.9,
-      "sku": 18644119330491310,
+      "img": "../image/f1.PNG",
       "style": "Preta com listras brancas",
       "title": "Sphynx Tie Dye Grey T-Shirt"
     },
@@ -100,7 +100,7 @@
       "installments": 7,
       "isFreeShipping": true,
       "price": 14.9,
-      "sku": 11854078013954528,
+      "img": "../image/f1.PNG",
       "style": "Branco com listras pretas",
       "title": "Danger Knife Grey"
     },
@@ -113,7 +113,7 @@
       "installments": 7,
       "isFreeShipping": true,
       "price": 14.9,
-      "sku": 876661122392077,
+      "img": "../image/f1.PNG",
       "style": "Preto com listras brancas",
       "title": "White DGK Script Tee"
     },
@@ -126,7 +126,7 @@
       "installments": 12,
       "isFreeShipping": false,
       "price": 25.9,
-      "sku": 9197907543445676,
+      "img": "../image/f1.PNG",
       "style": "Branco com listras pretas",
       "title": "Born On The Streets"
     },
@@ -139,7 +139,7 @@
       "installments": 9,
       "isFreeShipping": false,
       "price": 10.9,
-      "sku": 10547961582846888,
+      "img": "../image/f1.PNG",
       "style": "Preto",
       "title": "Tso 3D Short Sleeve T-Shirt A"
     },
@@ -152,7 +152,7 @@
       "installments": 0,
       "isFreeShipping": true,
       "price": 49.9,
-      "sku": 6090484789343891,
+      "img": "../image/f1.PNG",
       "style": "Branco",
       "title": "Man Tie Dye Cinza Grey T-Shirt"
     },
@@ -165,7 +165,7 @@
       "installments": 4,
       "isFreeShipping": true,
       "price": 22.5,
-      "sku": 18532669286405344,
+      "img": "../image/f1.PNG",
       "style": "Preto com listras brancas",
       "title": "Crazy Monkey Black T-Shirt"
     },
@@ -178,7 +178,7 @@
       "installments": 4,
       "isFreeShipping": false,
       "price": 18.7,
-      "sku": 5619496040738316,
+      "img": "../image/f1.PNG",
       "style": "Azul escuro",
       "title": "Tso 3D Black T-Shirt"
     },
@@ -191,7 +191,7 @@
       "installments": 5,
       "isFreeShipping": true,
       "price": 134.9,
-      "sku": 11600983276356164,
+      "img": "../image/f1.PNG",
       "style": "",
       "title": "Crazy Monkey Grey"
     },
@@ -204,7 +204,7 @@
       "installments": 9,
       "isFreeShipping": true,
       "price": 49,
-      "sku": 27250082398145996,
+      "img": "../image/f1.PNG",
       "style": "",
       "title": "On The Streets Black T-Shirt"
     }
