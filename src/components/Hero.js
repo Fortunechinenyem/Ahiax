@@ -1,20 +1,14 @@
 import React from "react";
-import logo from "../image/p1.jpg";
+import logo from "../image/homeh (1).png";
 const Hero = () => {
   return (
     <section className="mt-3 mb-5  text-black ">
-      <div className="d-flex container row mx-auto">
-        <div className="py-5 w-50 ">
-          <h1>
-            Driven by the Passion to build a sales legacy for African businesses
-            and Aficans
-          </h1>
-        </div>
-        <div className="w-50 ">
+      <div className="w-75 mx-auto">
+        <div className=" ">
           <img
             src={logo}
             alt={Hero.jpg}
-            height="300px"
+            height=""
             style={{ objectFit: "cover" }}
           />
         </div>

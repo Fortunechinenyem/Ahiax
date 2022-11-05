@@ -1,3 +1,5 @@
+import React from "react";
+
 function Sidebar({ products }) {
   let sizes = Array.from(products).reduce((acc, cv) => {
     acc = acc.concat(cv.availableSizes);
