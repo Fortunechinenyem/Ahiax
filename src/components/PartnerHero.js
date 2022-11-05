@@ -5,7 +5,12 @@ const PartnerHero = () => {
     <section className="mt-3 mb-3 container row mx-auto">
       <div className="d-flex">
         <div className="">
-          <img src={logo} alt={PartnerHero.jpg} />
+          <img
+            src={logo}
+            alt={PartnerHero.jpg}
+            height=""
+            style={{ objectFit: "cover" }}
+          />
         </div>
         <div className=" text-black  ">
           <h3 className="text-center mt-5 py-5">
