@@ -3,7 +3,7 @@ import logo from "../image/homeh (1).png";
 const Hero = () => {
   return (
     <section className="mt-3 mb-5  text-black ">
-      <div className="w-75 mx-auto">
+      <div className="w-100 mx-auto">
         <div className=" ">
           <img
             src={logo}
