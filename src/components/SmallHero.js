@@ -4,7 +4,6 @@ const SmallHero = () => {
   return (
     <section>
       <div className="text-center mt-3 mb-2">
-        <h2></h2>
         <p>
           Growing your business should never have a limit. At Ahiax, we offer
           trusted eCommerce tools, an African Affiliate marketplace, an idustry

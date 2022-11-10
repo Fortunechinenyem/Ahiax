@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/homeh (1).png";
+
 const Hero = () => {
   return (
     <section className="hero ">

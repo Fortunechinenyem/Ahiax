@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/platformh.png";
+
 const PlatformHero = () => {
   return (
     <section className="platformhero ">

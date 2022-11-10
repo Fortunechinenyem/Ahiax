@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/partnerhero.PNG";
+
 const PartnerHero = () => {
   return (
     <section className="partnerhero ">
