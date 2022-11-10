@@ -201,24 +201,50 @@ header {
 }
 /* home */
 .hero {
-  color: var(--clr-light);
-}
-.herotext {
-  position: absolute;
-  z-index: 10;
-  left: 50%;
-  bottom: 0%;
-  transform: translate(-50%, 0%);
-  color: white;
-  width: 100%;
-  text-align: center;
-  font-weight: 600;
-  font-size: 1rem;
-  height: 40%;
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./image/p1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+.heroimage {
+  max-width: 500px;
+}
+
+.herotext {
+}
+.herobutton {
+  display: block;
+  width: 200px;
+
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: rgb(36, 19, 19);
+  text-decoration: none;
+  font-size: 1.5em;
+
+  border: 3px solid white;
+  border-radius: 20px;
+  background-color: rgba(61, 121, 118, 0.8);
+}
+
 .homefeatures {
   justify-content: space-between;
 }
@@ -231,8 +257,47 @@ header {
   justify-content: space-around;
 }
 /* About */
+/* Platform */
+.platformhero {
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./image/platformhero.PNG");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 /* Publishers */
+.publishhero {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("./image/pic16.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .publishfeat2 {
 }
 .publishfeat3 {
@@ -252,6 +317,24 @@ header {
   justify-content: space-between;
 }
 /* Brands */
+.brandhero {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("./image/p6.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .brandcard {
   background: var(--clr-alternate);
   flex-direction: row;
@@ -266,17 +349,72 @@ header {
   background: linear-gradient(rgb(0, 68, 150), rgb(99, 167, 78));
 }
 /* Partner */
+.partnerhero {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("./image/pichero.PNG");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .inbetween {
   flex-direction: column;
   justify-content: space-between;
 }
 /* Sales-Network */
+.saleshero {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("./image/pic43.PNG");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .salesfeat1 {
   justify-content: space-between;
 }
 .salesimage {
   /* height: 100px;
   width: 100px; */
+}
+/* Marketplace */
+.markethero {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("./image/markethero.PNG");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /* Footer */
 .footer {

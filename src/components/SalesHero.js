@@ -1,18 +1,15 @@
 import React from "react";
-import logo from "../image/pic43.PNG";
 const SalesHero = () => {
   return (
-    <section className="mt-3 mb-3">
-      <div className="d-flex">
-        <div className="py-5 w-50">
-          <h1>Ready to be Your own Boss?</h1>
+    <section className="saleshero ">
+      <div className="">
+        <div className="herotext">
+          <h1>Ready to be Your Own Boss? </h1>
           <p>
             Earn Big Commissions Leveraging Your Network and Traffic. It's Quite
-            Easy Too.{" "}
+            Easy Too.
           </p>
-        </div>
-        <div className="w-50 salesimage">
-          <img src={logo} alt={SalesHero.jpg} />
+          <button className=" btn btn-light">Become a Sales Partner</button>
         </div>
       </div>
     </section>
