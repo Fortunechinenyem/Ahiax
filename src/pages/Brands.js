@@ -1,6 +1,6 @@
 import React from "react";
 import BrandFeat1 from "../components/BrandFeat1";
-import BrandFeat2 from "../components/BrandFeat2";
+
 import BrandFeat3 from "../components/BrandFeat3";
 import BrandFeat4 from "../components/BrandFeat4";
 import BrandFeat5 from "../components/BrandFeat5";
@@ -12,7 +12,7 @@ const Brands = () => {
     <>
       <BrandHero />
       <BrandFeat1 />
-      <BrandFeat2 />
+
       <BrandFeat3 />
       <BrandFeat4 />
       <BrandFeat5 />

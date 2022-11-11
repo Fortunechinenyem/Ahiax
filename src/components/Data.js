@@ -36,13 +36,13 @@ import image35 from "../image/popularbrands1.PNG";
 import image36 from "../image/popularbrands2.PNG";
 import image37 from "../image/popularbrands3.PNG";
 import image38 from "../image/popularbrands4.PNG";
-import image40 from "../image/pic40.PNG";
-import image41 from "../image/pic41.PNG";
-import image42 from "../image/pic42.PNG";
-import image50 from "../image/pic50.PNG";
+import image40 from "../image/salesa.PNG";
+import image41 from "../image/salesb.PNG";
+import image42 from "../image/salesc.PNG";
+import image50 from "../image/f.png";
 import image51 from "../image/pic51.PNG";
 import image52 from "../image/pic52.PNG";
-import image53 from "../image/pic53.PNG";
+import image53 from "../image/bb.png";
 import image60 from "../image/partner7.PNG";
 import image70 from "../image/weeklydeal1.PNG";
 import image71 from "../image/weeklydeal2.PNG";
@@ -400,25 +400,25 @@ const Data = {
       id: 47,
       img: image50,
       title: "High Performing Sales Team",
-      desc: "The ElanX sales team is scattered across various customer segments and locations across the country. We consider training and account management as key to achieving success for our brands. We will help your brand scale through our reach.",
+      desc: "​High Performing Sales Team Our sales team has a vast network spread across location in that country. Different agents for different products. Our reach becomes your reach when you come onboard.",
     },
     {
       id: 49,
       img: image51,
       title: "High Traffic Publishers",
-      desc: "Content brands with a loyal audience they're great at developing interesting and engaging content that inspires their readers to buy.",
+      desc: "​High Traffic Publishers They give your brand recognition in the market. Build integrity with user generated content tailored for your business. An educated audience is a buying audience.",
     },
     {
       id: 50,
       img: image52,
       title: "Influencers with Authority",
-      desc: "luential people with trust and authority in their respective industry – their loyal followers on social media purchase products based on their recommendations.",
+      desc: "​Influencers Tap into the engagement of individuals with authority in their various industries and benefit from their loyal followers in terms of sales and recognition.",
     },
     {
       id: 51,
       img: image53,
       title: "Performance Marketing Experts ",
-      desc: "Online advertising experts they specialize in profitably scaling product sales on online traffic channels and international markets and only get paid for results.",
+      desc: "​Performance Marketing Experts Online sales experts: Multiply your sales and revenue by keying into these sales specialists that only get paid for result. ",
     },
   ],
   salesfeat2: [
@@ -426,19 +426,19 @@ const Data = {
       id: 40,
       img: image40,
       title: "Register",
-      desc: "Follow our easy to fill form to register.  Ensure you include accurate and updated details to maximise your sales opportunities, earnings and rewards.",
+      desc: "​Register through our easy-to-fill form. Ensure you include accurate and updated details to maximise your sales opportunities, earnings and rewards.",
     },
     {
       id: 41,
       img: image41,
-      title: "For Stores",
-      desc: "If you own an offline and/ or online store you can register as an order point or register as an individual and upgrade later.",
+      title: "Onboarding",
+      desc: "​Follow our easy to fill form to register.  Ensure you include accurate and updated details to maximise your sales opportunities, earnings and rewards.",
     },
     {
       id: 42,
       img: image42,
-      title: "onboarding",
-      desc: "After you have completed your registrations you should get an onboarding email from Ahiax and a call in 48hrs to onboard you and give you more information. ",
+      title: "For Stores",
+      desc: "Welcome to the world of possibilities where your brand's growth and profits generations come to reality,",
     },
   ],
 

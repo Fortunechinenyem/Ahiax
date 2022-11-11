@@ -344,7 +344,7 @@ header {
 /* Brands */
 .brandhero {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
 
   display: flex;
   justify-content: center;
@@ -353,8 +353,8 @@ header {
   text-align: center;
   color: white;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("./image/p6.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./image/ba.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -386,7 +386,7 @@ header {
   color: white;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("./image/pichero.PNG");
+    url("./image/partnera.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

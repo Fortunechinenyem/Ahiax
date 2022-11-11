@@ -10,9 +10,9 @@ const MarketFeatures1 = (props) => {
           <div class="col-md-4">
             <img
               src={img}
-              class="img-fluid rounded-start"
+              class="mx-auto"
               alt="..."
-              height="200px"
+              height="150px"
               style={{ objectFit: "cover" }}
             />
           </div>

@@ -1,16 +1,18 @@
 import React from "react";
-import logo1 from "../image/partner1.PNG";
-import logo2 from "../image/partner2.PNG";
-import logo3 from "../image/partner3.PNG";
-import logo4 from "../image/partner4.PNG";
-import logo5 from "../image/partner5.PNG";
-import logo6 from "../image/partner6.PNG";
+import logo1 from "../image/partnerb.PNG";
+import logo2 from "../image/partnerc.PNG";
+import logo3 from "../image/partnerd.PNG";
+import logo4 from "../image/partnere.PNG";
+import logo5 from "../image/partnerf.PNG";
+import logo6 from "../image/partnerg.PNG";
 
 const PartnerFeat2 = () => {
   return (
     <article>
       <div className="text-center text-black container row mx-auto">
-        <h2 className="mb-5">How it works</h2>
+        <h2 className="mb-5text-center section__title section__title--services">
+          How it works
+        </h2>
         <div className="container row  mx-auto">
           <div className="d-flex  ">
             <div className="">
@@ -102,7 +104,7 @@ const PartnerFeat2 = () => {
             </div>
           </div>
         </div>
-        <div className="mt-3 mb-3">
+        <div className="mt-4 mb-3">
           <button className="btn btn-success">Get Started</button>
         </div>
       </div>

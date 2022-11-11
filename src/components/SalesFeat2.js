@@ -25,7 +25,9 @@ const MarketFeatures1 = (props) => {
 const SalesFeat2 = () => {
   return (
     <section className="mt-5">
-      <h2 className="text-center mb-5">How to Join</h2>
+      <h2 className="text-center mb-5 text-center section__title section__title--services">
+        How to Join
+      </h2>
       <div className="container card1 row g-3 w-75 mx-auto">
         {Data.salesfeat2.map((marketfeaturesItem) => {
           return (
