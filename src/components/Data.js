@@ -1,8 +1,8 @@
-import image1 from "../image/homepic1.PNG";
-import image2 from "../image/homepic2.PNG";
-import image3 from "../image/homepic3.PNG";
-import image4 from "../image/homepic4.PNG";
-import image5 from "../image/homecommunity.PNG";
+import image1 from "../image/g.png";
+import image2 from "../image/f.png";
+import image3 from "../image/e.png";
+import image4 from "../image/a.png";
+import image5 from "../image/b.png";
 import image6 from "../image/image12.jpg";
 import image7 from "../image/image13.jpg";
 import image8 from "../image/image11.jpg";
@@ -60,6 +60,10 @@ import image95 from "../image/f5.PNG";
 import image96 from "../image/f6.PNG";
 import image97 from "../image/f7.PNG";
 import image98 from "../image/f8.PNG";
+import image100 from "../image/puc.PNG";
+import image101 from "../image/pud.PNG";
+import image102 from "../image/pue.PNG";
+import image103 from "../image/puf.PNG";
 
 const Data = {
   homefeatures: [
@@ -67,31 +71,36 @@ const Data = {
       id: 1,
       img: image1,
       title: "Brands That want to sell",
-      desc: "Leverage your network and our offers to generate wealth.",
+      desc: "Leverage your platform to make Profit.",
+      text: "​Take advantage of our network of publishers, influencers and sales agents to increase your reach and sell more products ",
     },
     {
       id: 2,
       img: image2,
       title: "Publishers/Influencers",
-      desc: "Partner with Top Brands",
+      desc: "Work with Top Brands",
+      text: "AhiaX helps influencers to earn commissions from partnerships with brands. As a publisher, you can make money from your traffic by improving sales and social proof for businesses",
     },
     {
       id: 3,
       img: image3,
       title: "Everyone can join our unique Sales Force",
-      desc: "Leverage your network and generate wealth",
+      desc: "Generate wealth through your network",
+      text: "​The bigger your network, the stronger your earning power. Advertise and drive sales for top brands. Anyone can do it.",
     },
     {
       id: 4,
       img: image4,
-      title: "Brands/Publishers/influencers",
-      desc: "Our Partner Marketing Solution",
+      title: "Partner with Us",
+      desc: "Work with Top Brands",
+      text: "As our long-term goal, Shoppers receive the product they purchased, enjoy all of its benefits, and provide valuable feedback to the Brand that helps them improve it over time",
     },
     {
       id: 5,
       img: image5,
-      title: "Affiliate Marketing",
+      title: "Our Partner Marketing Solution",
       desc: "Join our Affiliate community",
+      text: "​Once the marketing campaigns are optimized, Marketing Partners starts profitably scaling customer acquisition for the Brand across every online platform border and international market available.",
     },
   ],
   marketfeatures: [
@@ -436,25 +445,25 @@ const Data = {
   publishfeat: [
     {
       id: 50,
-      img: "",
-      title: "Huge Demand",
-      desc: "Our innovative solutions from trusted brands will add real value to your audience – inspiring them to buy immediately.",
+      img: image100,
+      title: "Large Network",
+      desc: "​Our in-demand and innovative solutions from top brands will add real value to your audience – inspiring them to purchase immediately.",
     },
     {
       id: 51,
-      img: "",
+      img: image101,
       title: "Smooth Funnels",
-      desc: "We create smooth user experiences, ensuring you always get the best possible results from your traffic.",
+      desc: "​We create smooth user experiences and responsive customer service, ensuring you get the best possible results from your traffic.",
     },
     {
       id: 52,
-      img: "",
-      title: "Top Rated Items",
+      img: image102,
+      title: "Incentives & Offers",
       desc: "With our exclusive bundles, discounts, and upsells, your sales will always be well above average and so will the commissions.",
     },
     {
       id: 53,
-      img: "",
+      img: image103,
       title: "All you need to do is bring the traffic",
       desc: "",
     },

@@ -214,7 +214,7 @@ header {
 
   /* Background styles */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./image/p1.jpg");
+    url("./image/h.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -248,6 +248,10 @@ header {
 .homefeatures {
   justify-content: space-between;
 }
+.smallerhero {
+  background-color: rgb(68, 66, 66);
+  color: var(--clr-light);
+}
 /* Markeplace */
 .markethero {
   background: linear-gradient(rgb(0, 68, 150), rgb(99, 167, 78));
@@ -278,7 +282,28 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+.platformfeat2 {
+  background-color: rgb(68, 64, 64);
+  color: var(--clr-light);
+  border-radius: 30px;
+}
+.platformfeat3 {
+  justify-content: space-evenly;
+}
+.pf3 {
+  color: var(--clr-accent);
+}
+.pf31 {
+  color: var(--clr-alternate);
+}
+.platformfeat4 {
+  background-color: rgb(37, 36, 36);
+  color: var(--clr-light);
+}
+.platformfeat6 {
+  background-color: rgb(19, 18, 18);
+  color: var(--clr-light);
+}
 /* Publishers */
 .publishhero {
   width: 100vw;

@@ -1,16 +1,23 @@
 import React from "react";
+import logo from "../image/pua.png";
 
 const PublishFeat1 = () => {
   return (
     <section>
       <div className="text-center w-75 mx-auto container">
-        <h2>Really, really get to be a BOSS!</h2>
+        <div className="w-75 mx-auto mt-3 mb-3 ">
+          <img src={logo} alt={PublishFeat1.jpg} className="mx-auto" />
+        </div>
+        <h2>
+          ​NOW is the time to make money with no limits, you may never get a
+          moment like this!
+        </h2>
 
         <p>
-          It's your 'PrimeTime' to make money with no limits, there may never be
-          a moment like this. ​ Your traffic deserves to be milked! We'll build
-          unique offers; build online strategies, analyze data, and craft
-          digital experiences that drive higher conversion among your audience.{" "}
+          ​Convert your traffic into high earnings! As a publisher or
+          influencer, access products from top brands, enjoy high conversion
+          rates, and create unique digital experiences for your audience. You
+          get to monitor everything in real-time.
         </p>
       </div>
     </section>

@@ -2,25 +2,25 @@ import React from "react";
 import Data from "../components/Data";
 
 const HomeFeatures1 = (props) => {
-  const { id, img, title, desc } = props;
+  const { id, img, title, desc, text } = props;
   return (
-    <div key={id} className="  row homefeatures">
-      <div className="">
-        <div className="col-md-4 ">
+    <div key={id} className=" homefeatures">
+      <div className="text-center">
+        <div className="">
           {" "}
           <img
             src={img}
-            className=""
+            className="mx-auto"
             alt=""
             height="200px"
             style={{ objectFit: "cover" }}
           />
-        </div>
-
-        <div className=" text-center col-md-8 ">
-          <h5 className="text-black">{title}</h5>
-          <p className=" text-black">{desc}</p>
-          <button className="btn btn-success mb-2">Sign Up</button>
+          <div className=" text-center ">
+            <h5 className="text-black">{title}</h5>
+            <p className=" text-black">{desc}</p>
+            <p>{text}</p>
+            <button className="btn btn-success mb-2">Sign Up</button>
+          </div>
         </div>
       </div>
     </div>

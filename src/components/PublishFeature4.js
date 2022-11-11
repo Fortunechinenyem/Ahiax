@@ -1,20 +1,20 @@
 import React from "react";
-import Publishimage from "../image/pic56.PNG";
+import Publishimage from "../image/puh.PNG";
+import logo from "../image/pug.png";
 
 const PublishFeat4 = () => {
   return (
     <>
-      <section className="mt-3 mb-3 publishfeat3 text-white ">
-        <div className="d-flex publishfeat33  mx-auto mb-5 ">
+      <section className="mt-3 mb-3 text-black ">
+        <div className="d-flex container row  mx-auto mb-5 ">
           <div className="col-md text-center">
             <h2>Who Could be an Affiliate?</h2>
-            <p>
-              This is a Price List paragraph. It's an ideal place to introduce
-              the types of paid services or plans available, and underline any
-              important or unique features for your visitors.
-            </p>
+            <p>Discover who publishers and influencers are</p>
+            <div className="w-75 mx-auto mt-3 mb-3 ">
+              <img src={logo} alt={PublishFeat4.png} className="mx-auto" />
+            </div>
           </div>
-          <div className="d-flex col-md-8 publishfeat33 container row ">
+          <div className="d-flex col-md-8  container row ">
             <div className=" col-sm-12 text-center bg-light text-black">
               <h5 className=" ">Influencers</h5>
               <p className="">You are a trusted Source</p>
@@ -45,7 +45,7 @@ const PublishFeat4 = () => {
 
         <div className="text-center w-75 mx-auto  ">
           <div className=" text-center mt-3 mb-5">
-            <h2 className="benefits">The Benefits</h2>
+            <h1 className="benefits pf3">The Benefits</h1>
           </div>
 
           <div className=" ">
@@ -55,16 +55,20 @@ const PublishFeat4 = () => {
                 alt="PublishFeat4.PNG"
                 height="200px"
                 style={{ objectFit: "cover" }}
+                className="mb-3 mx-auto"
               />
             </div>
             <div className=" text-center">
-              <h4 className="">Your Traffic has never been so profitable!</h4>
-              <p className="">We Provide all you need</p>
+              <h3 className="pf3">
+                ​Your traffic has never been so profitable. We provide all you
+                need.
+              </h3>
+
               <div>
-                <h3>01. Build Wealth</h3>
-                <h3>02. No Surprises</h3>
-                <h3>03. FrictionlessPayments</h3>
-                <h3>04. Grow Your Network</h3>
+                <h5>01. Build Wealth</h5>
+                <h5>02. No Surprises</h5>
+                <h5>03. FrictionlessPayments</h5>
+                <h5>04. Grow Your Network</h5>
               </div>
             </div>
           </div>

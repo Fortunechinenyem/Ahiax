@@ -4,10 +4,16 @@ import Data from "../components/Data";
 const MarketFeatures1 = (props) => {
   const { id, img, title, desc } = props;
   return (
-    <section className="">
-      <div key={id} className="card d-flex">
-        <div className="card-body1 text-center">
-          <img src={img} className="card-img" alt="" />
+    <section className="d-flex container row ">
+      <div key={id} className="card d-flex  mx-auto">
+        <div className="card-body1 text-center ">
+          <img
+            src={img}
+            className="card-img"
+            alt=""
+            height="150px"
+            style={{ objectFit: "cover" }}
+          />
           <h5 className="card-title text-black">{title}</h5>
           <p className="card-text text-black">{desc}</p>
         </div>

@@ -1,10 +1,12 @@
 import React from "react";
-import logo from "../image/pic57.PNG";
+import logo from "../image/pui.PNG";
 const PublishFeat5 = () => {
   return (
-    <section className="mt-3 mb-3">
+    <section className="mt-5 mb-3">
       <div className="text-center">
-        <h1>How It Works</h1>
+        <h1 className="text-center section__title section__title--services">
+          How It Works
+        </h1>
         <button className="btn btn-success mt-3 mb-3">
           Become an Affiliate Partner
         </button>
@@ -30,7 +32,7 @@ const PublishFeat5 = () => {
           </div>
         </div>
         <div className="col-md-4 ">
-          <img src={logo} alt={PublishFeat5.jpg} />
+          <img src={logo} alt={PublishFeat5.jpg} className="mx-auto" />
         </div>
         <div className="col-md-4 ">
           <div>
