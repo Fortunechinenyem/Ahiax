@@ -13,10 +13,10 @@ const PartnerFeat2 = () => {
         <h2 className="mb-5text-center section__title section__title--services">
           How it works
         </h2>
-        <div className="container row  mx-auto">
-          <div className="d-flex  ">
+        <div className=" mx-auto">
+          <div className="d-flex container   ">
             <div className="">
-              <div>
+              <div className="">
                 <img src={logo1} alt={PartnerFeat2.PNG} />
 
                 <p>
