@@ -37,7 +37,7 @@ const BrandFeat3 = () => {
       <div className="text-center section__title section__title--services mb-5">
         <h1>Meet your Ahiax Sales Partners.</h1>
       </div>
-      <div className="container card1 row g-3 w-75 mx-auto">
+      <div className="container  row g-3 w-75 mx-auto">
         {Data.brandfeat3.map((marketfeaturesItem) => {
           return (
             <div className=" mb-3 mt-3">
