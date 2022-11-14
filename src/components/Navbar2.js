@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { BsCart } from "react-icons/bs";
+import NavCartButton from "./productcart/NavCartButton";
 
 import { NavLink as Link, useNavigate } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -158,15 +158,7 @@ const LoginButton = () => {
     </Button>
   );
 };
-const CartButton = () => {
-  return (
-    <button>
-      <Link to="/orders" className="nav-link btn-btn-danger">
-        <BsCart />
-      </Link>
-    </button>
-  );
-};
+
 const NavBar = () => {
   return (
     <Nav className="navbar navbar-expand-lg px-3">
@@ -180,7 +172,7 @@ const NavBar = () => {
         <NavLinks />
         <ButtonWrapper>
           <LoginButton className="m-2" />
-          <CartButton className="m-2" />
+          <NavCartButton className="m-2" />
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>
