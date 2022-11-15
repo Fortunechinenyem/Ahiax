@@ -18,7 +18,7 @@ const Login = () => {
           <Form.Control
             type="email"
             placeholder="Enter email"
-            onChange={(e) => setEmail(e.target.value)}
+            // onChange={(e) => setEmail(e.target.value)}
           />
           <Form.Text className="text-muted">
             We'll never share your email with anyone else.
@@ -29,8 +29,8 @@ const Login = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control
             type="password"
-            placeholder="Password"
-            onChange={(e) => setPassword(e.target.value)}
+            // placeholder="Password"
+            // onChange={(e) => setPassword(e.target.value)}
           />
         </Form.Group>
         <div className="mt-3 mb-3">
