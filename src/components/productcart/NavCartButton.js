@@ -13,12 +13,6 @@ const NavCartButton = (props) => {
   const { items } = cartCtx;
   //ENDS
 
-  //Automating the numbering of items on the Cart button using the reduce function
-  const numberOfCartItems = items.reduce((curNumber, item) => {
-    return curNumber + item.amount;
-  }, 0);
-  //ENDS
-
   //Adding conditional stying to the Cart button using useState and ternary operator
   const btnBump = `${classes.cart__button} ${
     btnIsHighlighted ? classes.bump : ""
