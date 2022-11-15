@@ -171,8 +171,10 @@ const NavBar = () => {
         <SearchBar />
         <NavLinks />
         <ButtonWrapper>
-          <LoginButton className="m-2" />
-          <NavCartButton className="m-2" />
+          <LoginButton className="" />
+        </ButtonWrapper>
+        <ButtonWrapper>
+          <NavCartButton className="" />
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>

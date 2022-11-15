@@ -41,6 +41,7 @@ const NavCartButton = (props) => {
       clearTimeout(bumpTimer);
     };
   }, [items]);
+  const { isEmpty, totalItems } = useCart();
   // ENDS
 
   //Rendering the Cart button on the DOM
@@ -48,9 +49,9 @@ const NavCartButton = (props) => {
     <div onClick={props.onClick} className={btnBump}>
       <i className="">
         <BsCart3 />
+        {!isEmpty && <span style={{ position: "relative" }}>{totalItems}</span>}
+        <span style={{ marginLeft: !isEmpty ? "-13px" : 0 }}>&nbsp;</span>
       </i>
-
-      <div className={classes.badge}>{numberOfCartItems}</div>
     </div>
   );
   //ENDS

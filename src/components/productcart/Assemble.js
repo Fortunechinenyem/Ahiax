@@ -7,7 +7,7 @@ const Assemble = () => {
     <>
       <section className="py-4 container">
         <div className="row justify-content-center">
-          {Data1.map((item, index) => {
+          {Data1.fashion.map((item, index) => {
             return (
               <Itemcard
                 img={item.img}
