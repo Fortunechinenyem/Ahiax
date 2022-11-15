@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import Footer from "../components/Footer";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
 
-const Login = ({ setToken }) => {
-  const [email, setEmail] = useState();
-  const [password, setPassword] = useState();
+const Login = () => {
+  // const [email, setEmail] = useState();
+  // const [password, setPassword] = useState();
   return (
     <section>
       <div className="text-center section__title section__title--services">
