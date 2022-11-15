@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../components/Footer";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const Login = ({ setToken }) => {
+  const [email, setEmail] = useState();
+  const [password, setPassword] = useState();
   return (
     <section>
       <div className="text-center section__title section__title--services">
@@ -13,7 +15,11 @@ const Login = () => {
       <Form className="w-75 mx-auto">
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control
+            type="email"
+            placeholder="Enter email"
+            onChange={(e) => setEmail(e.target.value)}
+          />
           <Form.Text className="text-muted">
             We'll never share your email with anyone else.
           </Form.Text>
@@ -21,7 +27,11 @@ const Login = () => {
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+          <Form.Control
+            type="password"
+            placeholder="Password"
+            onChange={(e) => setPassword(e.target.value)}
+          />
         </Form.Group>
         <div className="mt-3 mb-3">
           <Link to="/">Sign UP</Link>

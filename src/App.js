@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./index.css";
 import { Route, Routes } from "react-router-dom";
 
@@ -18,8 +19,17 @@ import HealthBeauty from "./pages/HealthBeauty";
 import RealEstate from "./pages/RealEstate";
 import HomeGarden from "./pages/HomeGarden";
 import Orders from "./pages/Orders";
+import Dashboard from "./components/Dashboard";
+import Preferences from "./components/Preferences";
+import useToken from "./useToken";
 
 function App() {
+  const { token, setToken } = useToken();
+
+  if (!token) {
+    return <Login setToken={setToken} />;
+  }
+
   return (
     <article>
       <NavBar />
@@ -34,6 +44,9 @@ function App() {
         <Route path="/publishers" element={<Publishers />} />
         <Route path="/partner" element={<Partner />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/preferences" element={<Preferences />} />
+
         <Route path="/marketplace" element={<Marketplace />} />
         <Route path="/fashion" element={<Fashion />} />
         <Route path="/mobilecomputing" element={<MobileComputing />} />
