@@ -66,11 +66,14 @@ const Kart = () => {
           <p>Total Price: N {cartTotal}</p>
         </div>
         <div className="w-75 ms-auto mb-5">
-          <button className="btn btn-danger m-2 " onClick={() => emptyCart()}>
+          <button className="btn btn-dark m-2 " onClick={() => emptyCart()}>
             Clear Cart
           </button>
-          <button className="btn btn-warning ">
-            <Link to="/payment"> Payment</Link>
+          <button className="btn btn-success ">
+            <Link to="/payment" className="nav-link">
+              {" "}
+              Payment
+            </Link>
           </button>
         </div>
       </div>
