@@ -21,14 +21,14 @@ import HomeGarden from "./pages/HomeGarden";
 import Orders from "./pages/Orders";
 import Dashboard from "./components/Dashboard";
 import Preferences from "./components/Preferences";
-import useToken from "./useToken";
+// import useToken from "./useToken";
 
 function App() {
-  const { token, setToken } = useToken();
+  // const { token, setToken } = useToken();
 
-  if (!token) {
-    return <Login setToken={setToken} />;
-  }
+  // if (!token) {
+  //   return <Login setToken={setToken} />;
+  // }
 
   return (
     <article>

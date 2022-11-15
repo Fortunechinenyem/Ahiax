@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
+import PlatformFeat7 from "../components/PlatformFeat7";
 import SalesFeat1 from "../components/SalesFeat1";
 import SalesFeat2 from "../components/SalesFeat2";
 
@@ -11,7 +12,7 @@ const SalesNetwork = () => {
       <SalesHero />
       <SalesFeat1 />
       <SalesFeat2 />
-
+      <PlatformFeat7 />
       <Footer />
     </>
   );

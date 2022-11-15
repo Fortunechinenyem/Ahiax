@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 
 import HomeFeatures from "../components/HomeFeatures";
+import PlatformFeat7 from "../components/PlatformFeat7";
 
 import SmallerHero from "../components/SmallerHero";
 import SmallHero from "../components/SmallHero";
@@ -16,6 +17,7 @@ const Home = () => {
       <HomeFeatures />
       <Community />
       <SmallerHero />
+      <PlatformFeat7 />
       <Footer />
     </>
   );

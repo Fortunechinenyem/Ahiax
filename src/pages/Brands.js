@@ -6,6 +6,7 @@ import BrandFeat4 from "../components/BrandFeat4";
 import BrandFeat5 from "../components/BrandFeat5";
 import BrandHero from "../components/BrandHero";
 import Footer from "../components/Footer";
+import PlatformFeat7 from "../components/PlatformFeat7";
 
 const Brands = () => {
   return (
@@ -16,6 +17,7 @@ const Brands = () => {
       <BrandFeat3 />
       <BrandFeat4 />
       <BrandFeat5 />
+      <PlatformFeat7 />
       <Footer />
     </>
   );

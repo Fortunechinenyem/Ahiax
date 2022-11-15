@@ -1,6 +1,7 @@
 import React from "react";
 
 import Footer from "../components/Footer";
+import PlatformFeat7 from "../components/PlatformFeat7";
 
 import PublishFeat1 from "../components/PublishFeature1";
 import PublishFeat2 from "../components/PublishFeature2";
@@ -18,6 +19,7 @@ const Publishers = () => {
       <PublishFeat3 />
       <PublishFeat4 />
       <PublishFeat5 />
+      <PlatformFeat7 />
       <Footer />
     </>
   );
