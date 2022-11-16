@@ -252,14 +252,7 @@ header {
   background-color: rgb(68, 66, 66);
   color: var(--clr-light);
 }
-/* Markeplace */
-.markethero {
-  background: linear-gradient(rgb(0, 68, 150), rgb(99, 167, 78));
-  justify-content: space-between;
-}
-.smallermarkerhero {
-  justify-content: space-around;
-}
+
 /* About */
 /* Platform */
 .platformhero {
@@ -317,7 +310,7 @@ header {
   color: white;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("./image/pic16.jpg");
+    url("./image/pic13.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -409,7 +402,7 @@ header {
   color: white;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("./image/pic43.PNG");
+    url("./image/p1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -435,11 +428,15 @@ header {
   color: white;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("./image/markethero.PNG");
+    url("./image/image6.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.smallermarkerhero {
+  justify-content: space-around;
 }
 /* Footer */
 .footer {

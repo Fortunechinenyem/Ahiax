@@ -1,18 +1,10 @@
 import React from "react";
-import logo from "../image/p6.jpg";
+
 const SalesFeat1 = () => {
   return (
     <section className="mt-3 mb-3 ">
-      <div className="d-flex container row mx-auto  ">
-        <div className="">
-          <img
-            src={logo}
-            alt={SalesFeat1.jpg}
-            height="200px"
-            style={{ objectFit: "cover" }}
-            className="mx-auto"
-          />
-        </div>
+      <div className="container  mx-auto  ">
+        <div className=""></div>
         <div className="text-center">
           <h2>The Ahiax Sales Network</h2>
           <p>
