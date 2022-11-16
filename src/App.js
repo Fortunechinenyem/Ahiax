@@ -21,6 +21,7 @@ import HomeGarden from "./pages/HomeGarden";
 import Orders from "./pages/Orders";
 import Dashboard from "./components/Dashboard";
 import Preferences from "./components/Preferences";
+import Kids from "./pages/Kids";
 // import useToken from "./useToken";
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
         <Route path="/healthbeauty" element={<HealthBeauty />} />
         <Route path="/realestate" element={<RealEstate />} />
         <Route path="/homegarden" element={<HomeGarden />} />
+        <Route path="/kids" element={<Kids />} />
         <Route path="/orders" element={<Orders />} />
       </Routes>
     </article>

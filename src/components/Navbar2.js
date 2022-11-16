@@ -145,6 +145,11 @@ const NavLinks = () => {
             Real Estate
           </Link>
         </NavDropdown.Item>
+        <NavDropdown.Item eventKey="4.6">
+          <Link to="/kids" className="nav-link">
+            Kids
+          </Link>
+        </NavDropdown.Item>
       </NavDropdown>
       <li className="nav-item ">
         <Link className="nav-link" to="/orders">

@@ -64,6 +64,51 @@ import image100 from "../image/puc.PNG";
 import image101 from "../image/pud.PNG";
 import image102 from "../image/pue.PNG";
 import image103 from "../image/puf.PNG";
+import image110 from "../image/healthbeauty (1).jpg";
+import image111 from "../image/healthbeauty (2).jpg";
+import image112 from "../image/healthbeauty (3).jpg";
+import image113 from "../image/healthbeauty (4).jpg";
+import image114 from "../image/healthbeauty (5).jpg";
+import image115 from "../image/healthbeauty (6).jpg";
+import image116 from "../image/healthbeauty (7).jpg";
+import image117 from "../image/healthbeauty (8).jpg";
+import image118 from "../image/healthbeauty (9).jpg";
+import image120 from "../image/realestate.jpg";
+import image121 from "../image/realestate.jpg";
+import image122 from "../image/realestate.jpg";
+import image123 from "../image/realestate.jpg";
+import image124 from "../image/realestate.jpg";
+import image125 from "../image/realestate.jpg";
+import image126 from "../image/realestate.jpg";
+import image127 from "../image/realestate.jpg";
+import image128 from "../image/realestate.jpg";
+import image150 from "../image/kids (1).jpg";
+import image151 from "../image//kids (2).jpg";
+import image152 from "../image//kids (3).jpg";
+import image153 from "../image//kids (4).jpg";
+import image154 from "../image//kids (4).jpg";
+import image155 from "../image//kids (4).jpg";
+import image156 from "../image//kids (4).jpg";
+import image157 from "../image//kids (4).jpg";
+import image158 from "../image//kids (4).jpg";
+import image170 from "../image/homegarden (1).jpg";
+import image171 from "../image/homegarden (2).jpg";
+import image172 from "../image/homegarden (3).jpg";
+import image173 from "../image/homegarden (4).jpg";
+import image174 from "../image/homegarden (5).jpg";
+import image175 from "../image/homegarden (5).jpg";
+import image176 from "../image/homegarden (5).jpg";
+import image177 from "../image/homegarden (5).jpg";
+import image178 from "../image/homegarden (5).jpg";
+import image190 from "../image/mobilecomputing (1).jpg";
+import image191 from "../image/mobilecomputing (2).jpg";
+import image192 from "../image/mobilecomputing (3).jpg";
+import image193 from "../image/mobilecomputing (4).jpg";
+import image194 from "../image/mobilecomputing (5).jpg";
+import image195 from "../image/mobilecomputing (6).jpg";
+import image196 from "../image/mobilecomputing (7).jpg";
+import image197 from "../image/mobilecomputing (7).jpg";
+import image198 from "../image/mobilecomputing (7).jpg";
 
 const Data = {
   homefeatures: [
@@ -555,6 +600,356 @@ const Data = {
     {
       id: 78,
       img: image98,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+  ],
+  homegarden: [
+    {
+      id: 170,
+      img: image170,
+      title: "Old Navy Short Sleeve T-shirt in Green Stripe | pack of 10 units",
+      desc: "-",
+      price: 54000,
+    },
+    {
+      id: 171,
+      img: image171,
+      title: "Zikel Pressed Powder",
+      desc: "-",
+      price: 1700,
+    },
+    {
+      id: 172,
+      img: image172,
+      title: "Hailey Female Wrist Watch | Pack of 72 units",
+      desc: "",
+      price: 108000,
+    },
+    {
+      id: 173,
+      img: image173,
+      title:
+        "Pretty Little thing Bandeau Bodycon Midi Dress | Pack of 20 units",
+      desc: "-",
+      price: 130000,
+    },
+    {
+      id: 174,
+      img: image174,
+      title:
+        "Zara Women's short in various styles and colour | Pack of 10 units",
+      desc: "-",
+      price: 44000,
+    },
+    {
+      id: 175,
+      img: image175,
+      title:
+        "Zara Women's Skirt in Various Styles and Colour | Pack of 40 units",
+      desc: "-",
+      price: 160000,
+    },
+    {
+      id: 176,
+      img: image176,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 177,
+      img: image177,
+      title: "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Grey | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 178,
+      img: image178,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+  ],
+  mobilecomputing: [
+    {
+      id: 190,
+      img: image190,
+      title: "Old Navy Short Sleeve T-shirt in Green Stripe | pack of 10 units",
+      desc: "-",
+      price: 54000,
+    },
+    {
+      id: 191,
+      img: image191,
+      title: "Zikel Pressed Powder",
+      desc: "-",
+      price: 1700,
+    },
+    {
+      id: 192,
+      img: image192,
+      title: "Hailey Female Wrist Watch | Pack of 72 units",
+      desc: "",
+      price: 108000,
+    },
+    {
+      id: 193,
+      img: image193,
+      title:
+        "Pretty Little thing Bandeau Bodycon Midi Dress | Pack of 20 units",
+      desc: "-",
+      price: 130000,
+    },
+    {
+      id: 194,
+      img: image194,
+      title:
+        "Zara Women's short in various styles and colour | Pack of 10 units",
+      desc: "-",
+      price: 44000,
+    },
+    {
+      id: 195,
+      img: image195,
+      title:
+        "Zara Women's Skirt in Various Styles and Colour | Pack of 40 units",
+      desc: "-",
+      price: 160000,
+    },
+    {
+      id: 196,
+      img: image196,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 197,
+      img: image197,
+      title: "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Grey | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 198,
+      img: image198,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+  ],
+  healthbeauty: [
+    {
+      id: 110,
+      img: image110,
+      title: "Old Navy Short Sleeve T-shirt in Green Stripe | pack of 10 units",
+      desc: "-",
+      price: 54000,
+    },
+    {
+      id: 111,
+      img: image111,
+      title: "Zikel Pressed Powder",
+      desc: "-",
+      price: 1700,
+    },
+    {
+      id: 112,
+      img: image112,
+      title: "Hailey Female Wrist Watch | Pack of 72 units",
+      desc: "",
+      price: 108000,
+    },
+    {
+      id: 113,
+      img: image113,
+      title:
+        "Pretty Little thing Bandeau Bodycon Midi Dress | Pack of 20 units",
+      desc: "-",
+      price: 130000,
+    },
+    {
+      id: 114,
+      img: image114,
+      title:
+        "Zara Women's short in various styles and colour | Pack of 10 units",
+      desc: "-",
+      price: 44000,
+    },
+    {
+      id: 115,
+      img: image115,
+      title:
+        "Zara Women's Skirt in Various Styles and Colour | Pack of 40 units",
+      desc: "-",
+      price: 160000,
+    },
+    {
+      id: 116,
+      img: image116,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 117,
+      img: image117,
+      title: "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Grey | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 118,
+      img: image118,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+  ],
+  realestate: [
+    {
+      id: 120,
+      img: image120,
+      title: "Old Navy Short Sleeve T-shirt in Green Stripe | pack of 10 units",
+      desc: "-",
+      price: 54000,
+    },
+    {
+      id: 121,
+      img: image121,
+      title: "Zikel Pressed Powder",
+      desc: "-",
+      price: 1700,
+    },
+    {
+      id: 122,
+      img: image122,
+      title: "Hailey Female Wrist Watch | Pack of 72 units",
+      desc: "",
+      price: 108000,
+    },
+    {
+      id: 123,
+      img: image123,
+      title:
+        "Pretty Little thing Bandeau Bodycon Midi Dress | Pack of 20 units",
+      desc: "-",
+      price: 130000,
+    },
+    {
+      id: 124,
+      img: image124,
+      title:
+        "Zara Women's short in various styles and colour | Pack of 10 units",
+      desc: "-",
+      price: 44000,
+    },
+    {
+      id: 125,
+      img: image125,
+      title:
+        "Zara Women's Skirt in Various Styles and Colour | Pack of 40 units",
+      desc: "-",
+      price: 160000,
+    },
+    {
+      id: 126,
+      img: image126,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 127,
+      img: image127,
+      title: "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Grey | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 128,
+      img: image128,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+  ],
+  kids: [
+    {
+      id: 150,
+      img: image150,
+      title: "Old Navy Short Sleeve T-shirt in Green Stripe | pack of 10 units",
+      desc: "-",
+      price: 54000,
+    },
+    {
+      id: 151,
+      img: image151,
+      title: "Zikel Pressed Powder",
+      desc: "-",
+      price: 1700,
+    },
+    {
+      id: 152,
+      img: image152,
+      title: "Hailey Female Wrist Watch | Pack of 72 units",
+      desc: "",
+      price: 108000,
+    },
+    {
+      id: 153,
+      img: image153,
+      title:
+        "Pretty Little thing Bandeau Bodycon Midi Dress | Pack of 20 units",
+      desc: "-",
+      price: 130000,
+    },
+    {
+      id: 154,
+      img: image154,
+      title:
+        "Zara Women's short in various styles and colour | Pack of 10 units",
+      desc: "-",
+      price: 44000,
+    },
+    {
+      id: 155,
+      img: image155,
+      title:
+        "Zara Women's Skirt in Various Styles and Colour | Pack of 40 units",
+      desc: "-",
+      price: 160000,
+    },
+    {
+      id: 156,
+      img: image156,
+      title:
+        "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 157,
+      img: image157,
+      title: "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Grey | Pack of 20",
+      desc: "-",
+      price: 187000,
+    },
+    {
+      id: 158,
+      img: image158,
       title:
         "Tommy Hilfiger TJFlex Men's Slimfit Jeans in Lightblue | Pack of 20",
       desc: "-",

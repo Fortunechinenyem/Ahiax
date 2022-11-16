@@ -10,7 +10,7 @@ const MobileComputing = () => {
           <h1>Mobile and Computing</h1>
         </div>
         <div className="row justify-content-center">
-          {data.fashion.map((item, index) => {
+          {data.mobilecomputing.map((item, index) => {
             return (
               <Itemcard
                 img={item.img}

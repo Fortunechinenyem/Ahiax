@@ -10,7 +10,7 @@ const HealthBeauty = () => {
           <h1>Health and Beauty</h1>
         </div>
         <div className="row justify-content-center">
-          {data.fashion.map((item, index) => {
+          {data.healthbeauty.map((item, index) => {
             return (
               <Itemcard
                 img={item.img}

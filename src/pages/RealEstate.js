@@ -10,7 +10,7 @@ const RealEstate = () => {
           <h1>Real Estate</h1>
         </div>
         <div className="row justify-content-center">
-          {data.fashion.map((item, index) => {
+          {data.realestate.map((item, index) => {
             return (
               <Itemcard
                 img={item.img}
