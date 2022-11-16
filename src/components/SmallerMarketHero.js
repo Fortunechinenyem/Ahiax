@@ -1,8 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 
-import logo from "../image/img1.PNG";
-
 const SmallerMarketHero = () => {
   return (
     <>
