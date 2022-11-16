@@ -15,7 +15,7 @@ const AffiliateFeat5 = () => {
             height="200px"
             style={{ objectFit: "cover" }}
           />
-          <h5 className="bg-success text-white">Computer or Smartphone ​</h5>
+          <h5 className="bg-secondary text-white">Computer or Smartphone ​</h5>
         </div>
         <div className="col-md-4">
           <img
@@ -25,7 +25,7 @@ const AffiliateFeat5 = () => {
             height="200px"
             style={{ objectFit: "cover" }}
           />
-          <h5 className="bg-success text-white">Internet Connection ​</h5>
+          <h5 className="bg-secondary text-white">Internet Connection ​</h5>
         </div>
         <div className="col-md-4">
           <img
@@ -35,7 +35,7 @@ const AffiliateFeat5 = () => {
             height="200px"
             style={{ objectFit: "cover" }}
           />
-          <h5 className="bg-success text-white">
+          <h5 className="bg-secondary text-white">
             Sign Up for your AhiaX Account ​
           </h5>
         </div>

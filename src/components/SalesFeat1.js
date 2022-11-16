@@ -8,7 +8,7 @@ const SalesFeat1 = () => {
         <div className="text-center">
           <h2>The Ahiax Sales Network</h2>
           <p>
-            ​The ElanX Sales Network is the offline sales channel of ElanX. It
+            ​The AhiaX Sales Network is the offline sales channel of ElanX. It
             is a community of salesmen and women leveraging their network of
             friends, colleagues, family, and just about anyone within their
             circle and community. Take advantage of our ever-increasing
@@ -17,7 +17,7 @@ const SalesFeat1 = () => {
             Network, you are empowered to own and run sales as your own business
             and of course be your own boss!
           </p>
-          <button className="btn btn-success mt-5">Sign Up</button>
+          <button className="btn btn-secondary mt-5">Sign Up</button>
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ const MarketFeatures1 = (props) => {
           <h5 className="card-title text-black">{amount}</h5>
           <p className="card-text text-black">{desc}</p>
           <div className="mt-3 mb-3">
-            <button className="btn btn-dark">Learn More</button>
+            <button className="btn btn-secondary">Learn More</button>
           </div>
         </div>
       </div>
@@ -32,9 +32,6 @@ const PartnerFeat3 = () => {
             </div>
           );
         })}
-      </div>
-      <div className="text-center mb-3">
-        <button className="btn btn-success mt-5">Get Started</button>
       </div>
     </section>
   );

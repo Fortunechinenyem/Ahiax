@@ -12,7 +12,7 @@ const PlatformFeat7 = () => {
             <img src={logo} alt={PlatformFeat7.jpg} className="mx-auto" />
           </div>
           <div className="text-center mb-5">
-            <button className="btn btn-success mt-3 m-2">Join</button>
+            <button className="btn btn-secondary mt-3 m-2">Join</button>
           </div>
         </div>
       </div>

@@ -15,9 +15,9 @@
 
   --clr-light: rgb(229, 231, 239);
   --clr-dark: #020233;
-  --clr-accent: #268f7d;
-  --clr-alternate: #0b2c57;
-  --clr-sisi: #0fa1a7;
+  --clr-accent: #3f5c69;
+  --clr-alternate: #527179;
+  --clr-sisi: #97b1aa;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -60,11 +60,11 @@ strong {
   font-weight: var(--fw-bold);
 }
 
-.btn {
+.btn1 {
   display: inline-block;
   padding: 0.5em 2.5em;
-  background: var(--clr-light);
-  color: var(--clr-dark);
+  background: var(--clr-alternate);
+  color: var(--clr-light);
   text-decoration: none;
   cursor: pointer;
   font-size: 0.8rem;
@@ -472,12 +472,15 @@ header {
 }
 /* Footer */
 .footer {
-  background: var(--clr-alternate);
-  color: var(--clr-light);
+  background: var(--clr-sisi);
+  color: var(--clr-dark);
   text-align: center;
   align-content: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);
+}
+.footerlogo {
+  margin: 10 10 10 10;
 }
 
 .footer a {

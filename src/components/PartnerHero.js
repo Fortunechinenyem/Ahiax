@@ -19,7 +19,7 @@ const PartnerHero = () => {
             Take advantage of our various performance marketing plans to drive
             more quality leads and sales.
           </p>
-          <Link to="/platform" className="btn btn-success mt-4 ">
+          <Link to="/platform" className="btn btn-secondary mt-4 ">
             See Packages
           </Link>
         </div>

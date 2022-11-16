@@ -4,11 +4,11 @@ import NavCartButton from "./productcart/NavCartButton";
 
 import { NavLink as Link, useNavigate } from "react-router-dom";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../image/logo1.svg";
+import logo from "../image/ahialogo.svg";
 
 const Nav = styled("nav")`
   padding: 1.5rem 0;
-  background-color: #268f7d;
+  background-color: #97b1aa;
 `;
 const LinksWrapper = styled("ul")`
   background-color: #fff;

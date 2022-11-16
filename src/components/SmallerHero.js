@@ -10,7 +10,7 @@ const SmallerHero = () => {
           Large Network of Sales Partners to Help Africans Earn More.
         </h4>
         <div className="">
-          <Button variant="success" className="mt-4 mb-3">
+          <Button variant="light" className="mt-4 mb-3">
             Get to Know Us
           </Button>
         </div>

@@ -16,7 +16,7 @@ const BrandHero = () => {
         <div className="col-md text-center">
           <h1>​Acquire customers and build your business in one place </h1>
           <p>We've set our standards high for you and keep them there.</p>
-          <Link to="/platform" className="btn btn-success mt-4 ">
+          <Link to="/platform" className="btn btn-secondary mt-4 ">
             Grow your Sales
           </Link>
         </div>

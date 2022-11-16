@@ -11,21 +11,21 @@ const AffiliateFeat6 = () => {
               ​Sign Up to leverage our sakes solutions & marketing expertise
             </h5>
             <div>
-              <button className="btn btn-success">Join Now</button>
+              <button className="btn btn-secondary">Join Now</button>
             </div>
           </div>
           <div className="col-md-4 card">
             <h3>​Publisher/Influencer</h3>
             <h5>​Sign Up to make sense of your traffic. Earn on your terms.</h5>
             <div>
-              <button className="btn btn-success">Join Now</button>
+              <button className="btn btn-secondary">Join Now</button>
             </div>
           </div>
           <div className="col-md-4 card ">
             <h3>​Sales Network</h3>
             <h5>​Sign Up to make sense of your traffic. Earn on your terms.</h5>
             <div>
-              <button className="btn btn-success">Join Now</button>
+              <button className="btn btn-secondary">Join Now</button>
             </div>
           </div>
         </div>

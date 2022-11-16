@@ -19,7 +19,7 @@ const HomeFeatures1 = (props) => {
             <h5 className="text-black">{title}</h5>
             <p className=" text-black">{desc}</p>
             <p>{text}</p>
-            <button className="btn btn-success mb-2">Sign Up</button>
+            <button className="btn btn-secondary mb-2">Sign Up</button>
           </div>
         </div>
       </div>

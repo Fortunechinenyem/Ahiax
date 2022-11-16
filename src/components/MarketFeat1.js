@@ -6,7 +6,7 @@ const MarketFeatures1 = (props) => {
   return (
     <section>
       <div key={id} className="card d-flex">
-        <div className="card-body1 text-center">
+        <div className=" text-center">
           <img
             src={img}
             className="card-img"

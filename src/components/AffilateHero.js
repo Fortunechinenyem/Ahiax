@@ -15,7 +15,7 @@ const AffiliateHero = () => {
             technology converge to create valuable shopping experiences that
             result in scalable, profitable growth.
           </p>
-          <Link to="/affiliateform" className="btn btn-light mt-4">
+          <Link to="/affiliateform" className="btn btn-secondary mt-4">
             Become An Affiliate
           </Link>
         </div>

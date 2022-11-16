@@ -12,7 +12,7 @@ const PlatformFeat6 = () => {
           </h2>
 
           <div className="text-center mb-5">
-            <button className="btn btn-success mt-3 m-2">Contact AhiaX</button>
+            <button className="btn btn-light mt-3 m-2">Contact AhiaX</button>
           </div>
         </div>
       </div>

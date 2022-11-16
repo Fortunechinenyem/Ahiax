@@ -16,7 +16,7 @@ const MarketFeatures1 = (props) => {
           />
           <h5 className="card-title text-black">{title}</h5>
           <p className="card-text text-black">{desc}</p>
-          <button className="btn btn-success mb-3">Shop</button>
+          <button className="btn btn-secondary mb-3">Shop</button>
         </div>
       </div>
     </section>

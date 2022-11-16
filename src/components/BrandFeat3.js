@@ -25,7 +25,7 @@ const MarketFeatures1 = (props) => {
         </div>
       </div>
       <div className="text-center mt-3 mb-3">
-        <button className="btn btn-success">Learn More</button>
+        <button className="btn btn-secondary">Learn More</button>
       </div>
     </section>
   );

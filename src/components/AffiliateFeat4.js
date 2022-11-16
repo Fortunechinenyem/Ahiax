@@ -9,8 +9,8 @@ const AffiliateFeat4 = () => {
         </h2>
       </div>
       <div className="d-flex container row g-5 mx-auto platformfeat3">
-        <div className="col-md-4 card bg-success">
-          <h4 className="pf31">​ADVERTISER PARTNER</h4>
+        <div className="col-md-4 card bg-secondary text-white">
+          <h4 className="pf33">​ADVERTISER PARTNER</h4>
           <p className="">
             ​Advertisers are brands that sell products, experiences, services
             and reward publishers for driving desired results and sales, leads,
@@ -18,16 +18,16 @@ const AffiliateFeat4 = () => {
             anything you can dream up.
           </p>
         </div>
-        <div className="col-md-4 card bg-success ">
-          <h4 className="pf31">​PUBLISHER PARTNER</h4>
+        <div className="col-md-4 card bg-secondary text-white ">
+          <h4 className="pf33">​PUBLISHER PARTNER</h4>
           <p className="">
             Publisher partners engage shoppers through a variety of distribution
             models including websites, social media, blogs, search, email,
             mobile apps, offline marketing, and more. ​ ​ ​
           </p>
         </div>
-        <div className="col-md-4 card bg-success">
-          <h4 className="pf31 ">​SALES NETWORK</h4>
+        <div className="col-md-4 card bg-secondary text-white">
+          <h4 className="pf33 ">​SALES NETWORK</h4>
           <p className="">
             ​Publisher partners engage shoppers through a variety of
             distribution models including websites, social media, blogs, search,

@@ -7,7 +7,7 @@ const PublishFeat5 = () => {
         <h1 className="text-center section__title section__title--services">
           How It Works
         </h1>
-        <button className="btn btn-success mt-3 mb-3">
+        <button className="btn btn-secondary mt-3 mb-3">
           Become an Affiliate Partner
         </button>
       </div>

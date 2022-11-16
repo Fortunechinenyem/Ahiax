@@ -43,38 +43,7 @@ const PartnerFeat2 = () => {
                 </p>
               </div>
             </div>
-            <div className="d-flex inbetween">
-              <div>
-                <ul>
-                  <li>1</li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li>2</li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li>3</li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li>4</li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li>5</li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li>6</li>
-                </ul>
-              </div>
-            </div>
+
             <div className="dflex ">
               <div>
                 <img src={logo2} alt={PartnerFeat2.PNG} />
@@ -105,7 +74,7 @@ const PartnerFeat2 = () => {
           </div>
         </div>
         <div className="mt-4 mb-3">
-          <button className="btn btn-success">Get Started</button>
+          <button className="btn btn-secondary">Get Started</button>
         </div>
       </div>
     </article>

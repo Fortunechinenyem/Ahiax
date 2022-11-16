@@ -38,7 +38,7 @@ const SalesFeat2 = () => {
         })}
       </div>
       <div className="text-center mb-3">
-        <button className="btn btn-success mt-5">Get Started</button>
+        <button className="btn btn-secondary mt-5">Get Started</button>
       </div>
     </section>
   );
