@@ -1,5 +1,6 @@
 import React from "react";
 import Data from "../components/Data";
+import { Link } from "react-router-dom";
 
 const HomeFeatures1 = (props) => {
   const { id, img, title, desc, text } = props;
@@ -12,14 +13,16 @@ const HomeFeatures1 = (props) => {
             src={img}
             className="mx-auto"
             alt=""
-            height="200px"
+            height="300px"
             style={{ objectFit: "cover" }}
           />
           <div className=" text-center ">
-            <h5 className="text-black">{title}</h5>
+            <h5 className="text-black mt-3">{title}</h5>
             <p className=" text-black">{desc}</p>
             <p>{text}</p>
-            <button className="btn btn-secondary mb-2">Sign Up</button>
+            <Link to="/platform" className="btn btn-secondary mt-4">
+              Sign Up
+            </Link>
           </div>
         </div>
       </div>

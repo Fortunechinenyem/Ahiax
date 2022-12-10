@@ -1,12 +1,18 @@
 import React from "react";
-import logo from "../image/pua.png";
+import logo from "../image/p (30).jpg";
 
 const PublishFeat1 = () => {
   return (
     <section>
       <div className="text-center w-75 mx-auto container">
         <div className="w-75 mx-auto mt-3 mb-3 ">
-          <img src={logo} alt={PublishFeat1.jpg} className="mx-auto" />
+          <img
+            src={logo}
+            alt={PublishFeat1.jpg}
+            className="mx-auto"
+            height="500px"
+            style={{ objectFit: "cover" }}
+          />
         </div>
         <h2>
           ​NOW is the time to make money with no limits, you may never get a

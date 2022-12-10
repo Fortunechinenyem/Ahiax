@@ -214,7 +214,7 @@ header {
 
   /* Background styles */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("./image/h.png");
+    url("./image/p (3).jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -249,8 +249,9 @@ header {
   justify-content: space-between;
 }
 .smallerhero {
-  background-color: rgb(68, 66, 66);
+  background-color: rgb(27, 25, 25);
   color: var(--clr-light);
+  padding: 20px 10px 10px 10px;
 }
 
 /* About */
@@ -363,8 +364,16 @@ header {
 .brand1 {
   background: var(--clr-light);
 }
+.brandfeat1 {
+  background: #434246;
+}
 .brandfeat4 {
   background: linear-gradient(rgb(0, 68, 150), rgb(99, 167, 78));
+}
+.brandfeat5 {
+  background-color: rgb(27, 25, 25);
+  color: var(--clr-light);
+  padding: 20px 10px 10px 10px;
 }
 /* Partner */
 .partnerhero {
@@ -424,8 +433,8 @@ header {
   text-align: center;
   color: white;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("./image/afa.PNG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("./image/p (17).jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -445,7 +454,7 @@ header {
   color: white;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("./image/image6.jpg");
+    url("./image/p (36).jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../image/f.png";
+import logo from "../image/p (31).jpg";
 
 const AffiliateFeat2 = () => {
   return (
@@ -21,7 +21,7 @@ const AffiliateFeat2 = () => {
           src={logo}
           alt={AffiliateFeat2.png}
           className="col-md "
-          height=""
+          height="350px"
           style={{ objectFit: "cover" }}
         />
       </div>

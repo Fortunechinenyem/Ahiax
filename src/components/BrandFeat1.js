@@ -22,17 +22,17 @@ const BrandFeat1 = () => {
               </p>
             </div>
 
-            <div className=" d-flex row g-3 container row mx-auto mt-3">
-              <div className="card col-sm-12 col-md-3 col-lg-3  bg-dark text-white">
+            <div className=" d-flex row g-3 container row mx-auto mt-3 ">
+              <div className="card col-sm-12 col-md-3 col-lg-3 brandfeat1 ">
                 <h3>Access to Thousands of Affiliates</h3>
               </div>
-              <div className="card col-sm-12 col-md-3 col-lg-3 bg-dark text-white">
+              <div className="card col-sm-12 col-md-3 col-lg-3 brandfeat1 ">
                 <h3>Sell Your Product or Services Without Caps</h3>
               </div>
-              <div className="card col-sm-12 col-md-3 col-lg-3 bg-dark text-white">
+              <div className="card col-sm-12 col-md-3 col-lg-3 brandfeat1 ">
                 <h3>Automated Affiliate Payments ​</h3>
               </div>
-              <div className="card col-sm-12 col-md-3 col-lg-3 bg-dark text-white">
+              <div className="card col-sm-12 col-md-3 col-lg-3 brandfeat1">
                 <h3>Personalized Account Management ​</h3>
               </div>
             </div>

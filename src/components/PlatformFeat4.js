@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../image/pa.png";
+import logo from "../image/p (23).jpg";
 
 const PlatformFeat4 = () => {
   return (

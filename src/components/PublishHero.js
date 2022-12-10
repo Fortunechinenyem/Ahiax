@@ -11,7 +11,7 @@ const PublishHero = () => {
             long-term revenue, and enjoy high returns on every click you send.
             It doesn’t get any better than this!
           </p>
-          <button className=" btn btn-light mt-3">Become a Publisher</button>
+          <button className=" btn btn-dark mt-3">Become a Publisher</button>
         </div>
       </div>
     </section>

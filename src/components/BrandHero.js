@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../image/ba.png";
+import logo from "../image/p (37).jpg";
 
 const BrandHero = () => {
   return (
     <section className="container ">
-      <div className="d-flex row g-5 mx-auto ">
+      <div className="d-flex row g-5 mx-auto mt-1">
         <img
           src={logo}
           alt={BrandHero.png}
           className="col-md "
-          height=""
+          height="350px"
           style={{ objectFit: "cover" }}
         />
         <div className="col-md text-center">

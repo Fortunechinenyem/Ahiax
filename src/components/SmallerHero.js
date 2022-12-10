@@ -5,7 +5,7 @@ const SmallerHero = () => {
   return (
     <section>
       <div className="text-center mb-3 mt-3 smallerhero w-75 mx-auto">
-        <h4>
+        <h4 className="mt-5">
           ​We Are an African Affiliate Marketplace With the Right Tools and a
           Large Network of Sales Partners to Help Africans Earn More.
         </h4>

@@ -7,25 +7,25 @@ const MarketFeatures1 = (props) => {
     <section>
       <div key={id} className=" mb-3 text-black">
         <div class="row g-5">
-          <div class="col-md-4">
+          <div class="col-md">
             <img
               src={img}
               class="mx-auto"
               alt="..."
-              height="150px"
+              height="350px"
               style={{ objectFit: "cover" }}
             />
           </div>
-          <div className="col-md-8">
+          <div className="col-md text-center">
             <div className="">
               <h5 className="">{title}</h5>
               <p className="">{desc}</p>
             </div>
+            <div className=" mt-3 mb-3">
+              <button className="btn btn-secondary">Learn More</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="text-center mt-3 mb-3">
-        <button className="btn btn-secondary">Learn More</button>
       </div>
     </section>
   );
